@@ -62,7 +62,7 @@ header nav {
 header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
 }
@@ -83,37 +83,6 @@ header nav ul li a:hover {
   color: var(--second-color);
 }
 
-/* navigation style start */
-.hero {
-  background-image: url("./assets/images/kohr-development-hero.jpg");
-  height: 450px;
-  background-size: cover;
-  background-position: top;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.hero-subtitle {
-  text-align: right;
-  line-height: 1.5;
-  margin: 150px 350px 0 0;
-}
-
-.hero-subtitle h2 {
-  font-size: 36px;
-  font-weight: lighter;
-  color: var(--first-color);
-}
-
-.hero-subtitle h3 {
-  font-style: italic;
-  font-size: 24px;
-  color: var(--first-color);
-}
-
-/* about me style start */
 .about {
   display: flex;
   border-bottom: 1px solid var(--first-color);
@@ -177,14 +146,6 @@ header nav ul li a:hover {
   opacity: .5;
 }
 
-.references div {
-  font-size: 14px;
-  font-weight: bold;
-  min-height: 3rem;
-  display: flex;
-  align-items: flex-end;
-}
-
 /* MEDIA QUERY FOR 1120PX SCREENS AND SMALLER */
 @media screen and (max-width: 1120px) {
   header nav ul li a {
@@ -222,12 +183,6 @@ header nav ul li a:hover {
   .button {
     font-size: 18px;
   }
-
-  .references div {
-    font-size: 12px;
-    font-weight: bold;
-    min-height: 2rem;
-  }
 }
 
 /* MEDIA QUERY FOR 768PX SCREENS AND SMALLER */
@@ -243,46 +198,9 @@ header nav ul li a:hover {
     overflow-x: hidden;
   }
 
-  .header-box {
-    content: "";
-  }
-
-  .hero-subtitle {
-    margin: 150px 325px 0 100px;
-  }
-
-  .about-me {
-    display: block;
-  }
-
-  .about-me h3,
-  .projects h3 {
-    width: 80%;
-    height: 20px;
-    font-size: 36px;
-    text-align: left;
-    margin: 30px 50px 10px 50px;
-  }
-
-  .about-me p {
-    width: 80%;
-    margin: 30px 65px 0 50px;
-    padding: 30px 10px 0 0;
-    font-size: 14px;
-    line-height: 1.5;
-    border-top: 1px solid var(--first-color);
-    border-left: none;
-  }
-
   .button {
     font-weight: normal;
     font-size: 17px;
-  }
-
-  .references div {
-    font-size: 10px;
-    font-weight: bold;
-    min-height: 2rem;
   }
 }
 
@@ -330,46 +248,8 @@ header nav ul li a:hover {
     letter-spacing: 2px;
   }
 
-  .header-box {
-    content: "";
-    height: 100%;
-  }
-
-  .hero {
-    height: 250px;
-    background-size: cover;
-    background-position: top;
-  }
-
-  .hero-subtitle {
-    margin: 30px 225px 0 30px;
-  }
-
-  .hero-subtitle h2 {
-    font-size: 22px;
-  }
-
-  .hero-subtitle h3 {
-    font-size: 18px;
-    margin-top: -3px;
-  }
-
-  .about-me p {
-    width: 80%;
-    margin: 30px 65px 0 50px;
-    padding: 30px 10px 0 0;
-    font-size: 14px;
-    line-height: 1.5;
-  }
-
   .button {
     font-weight: lighter;
     font-size: 12px;
-  }
-
-  .references div {
-    font-size: 6px;
-    font-weight: bold;
-    min-height: 2rem;
   }
 }
