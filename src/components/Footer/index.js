@@ -51,7 +51,7 @@ function Footer() {
             <img src={twitterIcon} alt="twitter icon"></img>
           </a>
         </div>
-        <div class="bg-none row justify-content-center text-dark mt-3">
+        <div className="bg-none row justify-content-center text-dark mt-3">
           <p>created by Shelby Kohring, © 2021</p>
         </div>
       </nav>
