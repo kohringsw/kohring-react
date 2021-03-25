@@ -8,7 +8,7 @@ function About() {
       <img
         src={coverImage}
         alt="Shelby Kohring profile"
-        className="about-img col-11 ml-4 mt-2 p-2"
+        className="about-img ml-4 mt-2 p-2"
       />
       <div className="my-4 ml-4 mr-5">
         <p>

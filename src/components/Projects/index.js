@@ -15,8 +15,8 @@ function Projects() {
             <h1 className="m-4 pb-3">Projects</h1>
           </div>
 
-          <div className="container row col-md-9">
-            <div className="hike-now row ml-4 mb-5 mt-2">
+          <div className="container row col-12">
+            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
               <a
                 href="https://kohringsw.github.io/hike-now/"
                 target="_blank"
@@ -49,8 +49,8 @@ function Projects() {
             </div>
           </div>
 
-          <div className="container row col-md-9">
-            <div className="hike-now row ml-4 mb-5 mt-2">
+          <div className="container row col-12">
+            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
               <a
                 href="https://kohringsw.github.io/simply-plan-it/"
                 target="_blank"
@@ -83,8 +83,8 @@ function Projects() {
             </div>
           </div>
 
-          <div className="container row col-md-9">
-            <div className="hike-now row ml-4 mb-5 mt-2">
+          <div className="container row col-12">
+            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
               <a
                 href="https://kohringsw.github.io/weather-dashboard/"
                 target="_blank"
@@ -117,8 +117,8 @@ function Projects() {
             </div>
           </div>
 
-          <div className="container row col-md-9">
-            <div className="hike-now row ml-4 mb-5 mt-2">
+          <div className="container row col-12">
+            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
               <a
                 href="https://kohringsw.github.io/password-generator/"
                 target="_blank"
@@ -151,8 +151,8 @@ function Projects() {
             </div>
           </div>
 
-          <div className="container row col-md-9">
-            <div className="hike-now row ml-4 mb-5 mt-2">
+          <div className="container row col-12">
+            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
               <a
                 href="https://guarded-hollows-23398.herokuapp.com/"
                 target="_blank"
@@ -185,8 +185,8 @@ function Projects() {
             </div>
           </div>
 
-          <div className="container row col-md-9">
-            <div className="hike-now row ml-4 mb-5 mt-2">
+          <div className="container row col-12">
+            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
               <a
                 href="https://the-bookfast-club.herokuapp.com/"
                 target="_blank"
