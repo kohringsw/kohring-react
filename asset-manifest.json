@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kohringsw-react/static/css/main.25ad0a16.chunk.css",
+    "main.css": "/kohringsw-react/static/css/main.d694842e.chunk.css",
     "main.js": "/kohringsw-react/static/js/main.955638a5.chunk.js",
     "main.js.map": "/kohringsw-react/static/js/main.955638a5.chunk.js.map",
     "runtime-main.js": "/kohringsw-react/static/js/runtime-main.dcd51cb0.js",
@@ -12,7 +12,7 @@
     "static/js/3.3c8a01de.chunk.js.map": "/kohringsw-react/static/js/3.3c8a01de.chunk.js.map",
     "index.html": "/kohringsw-react/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/kohringsw-react/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.25ad0a16.chunk.css.map": "/kohringsw-react/static/css/main.25ad0a16.chunk.css.map",
+    "static/css/main.d694842e.chunk.css.map": "/kohringsw-react/static/css/main.d694842e.chunk.css.map",
     "static/js/2.d0ce87b1.chunk.js.LICENSE.txt": "/kohringsw-react/static/js/2.d0ce87b1.chunk.js.LICENSE.txt",
     "static/media/bookfast-club.6a7a9e2f.png": "/kohringsw-react/static/media/bookfast-club.6a7a9e2f.png",
     "static/media/email.ee4019c3.svg": "/kohringsw-react/static/media/email.ee4019c3.svg",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.dcd51cb0.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.d0ce87b1.chunk.js",
-    "static/css/main.25ad0a16.chunk.css",
+    "static/css/main.d694842e.chunk.css",
     "static/js/main.955638a5.chunk.js"
   ]
 }
