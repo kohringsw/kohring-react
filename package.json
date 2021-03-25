@@ -1,6 +1,6 @@
 {
-  "homepage": "http://kohringsw.github.io/kohring-react",
-  "name": "kohring-react",
+  "homepage": "http://kohringsw.github.io/kohringsw-react",
+  "name": "kohringsw-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
