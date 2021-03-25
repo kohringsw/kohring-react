@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kohringsw-react/static/css/main.d694842e.chunk.css",
-    "main.js": "/kohringsw-react/static/js/main.955638a5.chunk.js",
-    "main.js.map": "/kohringsw-react/static/js/main.955638a5.chunk.js.map",
+    "main.css": "/kohringsw-react/static/css/main.10fe1438.chunk.css",
+    "main.js": "/kohringsw-react/static/js/main.7f1145dd.chunk.js",
+    "main.js.map": "/kohringsw-react/static/js/main.7f1145dd.chunk.js.map",
     "runtime-main.js": "/kohringsw-react/static/js/runtime-main.dcd51cb0.js",
     "runtime-main.js.map": "/kohringsw-react/static/js/runtime-main.dcd51cb0.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/kohringsw-react/static/css/2.4c97ca4f.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.3c8a01de.chunk.js.map": "/kohringsw-react/static/js/3.3c8a01de.chunk.js.map",
     "index.html": "/kohringsw-react/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/kohringsw-react/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.d694842e.chunk.css.map": "/kohringsw-react/static/css/main.d694842e.chunk.css.map",
+    "static/css/main.10fe1438.chunk.css.map": "/kohringsw-react/static/css/main.10fe1438.chunk.css.map",
     "static/js/2.d0ce87b1.chunk.js.LICENSE.txt": "/kohringsw-react/static/js/2.d0ce87b1.chunk.js.LICENSE.txt",
     "static/media/bookfast-club.6a7a9e2f.png": "/kohringsw-react/static/media/bookfast-club.6a7a9e2f.png",
     "static/media/email.ee4019c3.svg": "/kohringsw-react/static/media/email.ee4019c3.svg",
     "static/media/github.ee37d539.svg": "/kohringsw-react/static/media/github.ee37d539.svg",
     "static/media/hike-now.6c4241ec.png": "/kohringsw-react/static/media/hike-now.6c4241ec.png",
     "static/media/instagram.7c7e27f8.svg": "/kohringsw-react/static/media/instagram.7c7e27f8.svg",
-    "static/media/index.css": "/kohringsw-react/static/media/kohr-development-hero.f6b5b978.jpg",
+    "static/media/kohr-development-hero.f6b5b978.jpg": "/kohringsw-react/static/media/kohr-development-hero.f6b5b978.jpg",
     "static/media/linkedIn.62c630a3.svg": "/kohringsw-react/static/media/linkedIn.62c630a3.svg",
     "static/media/note-taker.b280c0fb.png": "/kohringsw-react/static/media/note-taker.b280c0fb.png",
     "static/media/password-generator.c8ee3cdf.png": "/kohringsw-react/static/media/password-generator.c8ee3cdf.png",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.dcd51cb0.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.d0ce87b1.chunk.js",
-    "static/css/main.d694842e.chunk.css",
-    "static/js/main.955638a5.chunk.js"
+    "static/css/main.10fe1438.chunk.css",
+    "static/js/main.7f1145dd.chunk.js"
   ]
 }
