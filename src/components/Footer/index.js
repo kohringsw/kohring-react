@@ -11,7 +11,7 @@ function Footer() {
       <nav>
         <div className="footer">
           <a
-            className="icon my-3 mx-5"
+            className="icon my-3 mx-4"
             href="mailto:kohringsw@gmail.com"
             target="_blank"
             rel="noreferrer"
@@ -19,7 +19,7 @@ function Footer() {
             <img src={emailIcon} alt="email icon"></img>
           </a>
           <a
-            className="icon my-3 mx-5"
+            className="icon my-3 mx-4"
             href="https://github.com/kohringsw"
             target="_blank"
             rel="noreferrer"
@@ -27,7 +27,7 @@ function Footer() {
             <img src={githubIcon} alt="github icon"></img>
           </a>
           <a
-            className="icon my-3 mx-5"
+            className="icon my-3 mx-4"
             href="https://www.linkedin.com/in/shelby-kohring-3335171b8/"
             target="_blank"
             rel="noreferrer"
@@ -35,7 +35,7 @@ function Footer() {
             <img src={linkedinIcon} alt="linkedin icon"></img>
           </a>
           <a
-            className="icon my-3 mx-5"
+            className="icon my-3 mx-4"
             href="https://www.instagram.com/shelbykohring/"
             target="_blank"
             rel="noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             <img src={instagramIcon} alt="instagram icon"></img>
           </a>
           <a
-            className="icon my-3 mx-5"
+            className="icon my-3 mx-4"
             href="https://www.twitter.com/shelbykohring/"
             target="_blank"
             rel="noreferrer"
