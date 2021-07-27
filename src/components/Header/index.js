@@ -1,16 +1,19 @@
 import React from "react";
 import Nav from "../Nav";
+import skDesignsLogo from "../../assets/images/SK-Designs.png";
 
 function Header(props) {
   const { sectionSelected, setSectionSelected } = props;
 
   return (
     <header className="header-box">
-      <h1>
-        <a href="/">SHELBY KOHRING</a>
-      </h1>
-      <Nav sectionSelected={sectionSelected} 
-      setSectionSelected={setSectionSelected}/>
+      <div className="d-flex justify-content-center align-content-center">
+        <img src={skDesignsLogo} className="logo m-4" />
+      </div>
+      <Nav
+        sectionSelected={sectionSelected}
+        setSectionSelected={setSectionSelected}
+      />
     </header>
   );
 }

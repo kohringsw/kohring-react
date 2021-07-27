@@ -3,14 +3,13 @@ import coverImage from "../../assets/images/kohr-development-hero.jpg";
 
 function About() {
   return (
-    <section className="col-12">
-      <h1 className="about m-4 pb-3"id="about">About Me</h1>
+    <section >
       <img
         src={coverImage}
         alt="Shelby Kohring profile"
-        className="about-img ml-4 mt-2 p-2"
+        className="about-img"
       />
-      <div className="my-4 ml-4 mr-5">
+      <div className="m-5">
         <p>
           Shelby was born and raised in Knoxville, Tennessee. He went to college
           at Lipscomb University from 2003-2007, where he received a Bachelor of

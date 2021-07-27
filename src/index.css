@@ -29,34 +29,22 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-bottom: solid 10px var(--second-color);
+  border-bottom: solid 10px var(--first-color);
 }
 
-header h1 a:hover {
-  text-decoration: none;
-  color: var(--second-color);
-}
-
-header h1 {
-  font-weight: bold;
-  font-size: 32px;
-  margin: 15px 0 15px 40px;
+.logo{
+  width: 30%;
 }
 
 .header-box {
   content: "";
   height: 100%;
   width: 100%;
-  background-color: var(--first-color);
-}
-
-header a {
-  text-decoration: none;
-  color: var(--fourth-color);
+  background-color: white;
 }
 
 header nav {
-  margin: 20px 12px;
+  margin: 10px 12px;
 }
 
 header nav ul {
@@ -70,7 +58,7 @@ header nav ul {
 header nav ul li a {
   padding: 0 30px;
   font-size: 22px;
-  color: white;
+  color: var(--first-color);
   letter-spacing: 4px;
 }
 
@@ -88,11 +76,6 @@ header nav ul li a:hover {
   border-bottom: 1px solid var(--first-color);
 }
 
-.about h1 {
-  font-size: 24px;
-  text-align: right;
-}
-
 .projects h1, .contact-h1 {
   border-bottom: 1px solid var(--first-color);
 }
@@ -106,8 +89,10 @@ header nav ul li a:hover {
 }
 
 .about-img {
-  border: 5px solid var(--first-color);
-  width: 90%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 .img {
