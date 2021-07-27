@@ -3,7 +3,7 @@ import coverImage from "../../assets/images/kohr-development-hero.jpg";
 
 function About() {
   return (
-    <section >
+    <section>
       <img
         src={coverImage}
         alt="Shelby Kohring profile"
@@ -11,13 +11,17 @@ function About() {
       />
       <div className="m-5">
         <p>
+          SK Designs is a free lance graphic design and web development company
+          operated by Shelby Kohring.
+        </p>
+        <p>
           Shelby was born and raised in Knoxville, Tennessee. He went to college
           at Lipscomb University from 2003-2007, where he received a Bachelor of
-          Arts degree. He graduated in December of 2007 and spent 13 years in
-          student ministry. While working on staff at three different churches
+          Arts degree. He graduated in December of 2007 and spent 13 years as a
+          student pastor. While working on staff at three different churches
           during that time, he developed a professional skillset in relational
-          team-building, communications, and presentations with a specific focus
-          on graphic design.
+          team-building, communications, public speaking and presentations, and
+          graphic design.
         </p>
         <p>
           He is married to his beautiful wife, Jessi. They have three amazing
@@ -27,14 +31,16 @@ function About() {
           be.
         </p>
         <p>
-          Shelby excels in design and development seeking to increase experience
-          as a web developer, implementing different coding languages with a
-          desire to help businesses and organizations better represent their
-          brands online. His greatest hope professionally is to work on projects
-          for companies and organizations that love and care about people.
-          Long-term he would like to use what he learns on his journey to teach
-          men and women in different parts of the world to help break
-          multi-generational cycles of poverty.
+          Just this year, Shelby graduated from Vanderbilt University’s Coding
+          Bootcamp earning a certificate in Full Stack Web Development. With
+          this, he is hopeful to use his skills as a graphic designer and
+          increase his knowledge and expertise in web development to help
+          businesses and organizations better represent their brands online. His
+          greatest hope professionally is to work on projects for companies and
+          organizations that love and care about people. Long-term, he would
+          like to use everything he learns on his journey to teach men and women
+          in different parts of the world to help break multi-generational
+          cycles of poverty.
         </p>
       </div>
     </section>
