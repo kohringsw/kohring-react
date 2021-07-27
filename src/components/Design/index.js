@@ -9,12 +9,13 @@ function Design() {
     <main>
       <div className="project">
         <section className="projects col-12">
-          <div className="section-title">
-            <h1 className="m-4 pb-3">Graphic Design</h1>
+
+          <div className="section-title d-flex justify-content-center">
+            <h1 className="m-5 font-weight-light">GRAPHIC DESIGN</h1>
           </div>
 
-          <div className="container row col-12">
-            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
+          <div className="d-flex justify-content-center mb-5">
+            <div className="mx-5 mt-2">
               <a
                 href="https://kohringsw.github.io/hike-now/"
                 target="_blank"
@@ -26,7 +27,7 @@ function Design() {
                   alt="Hike Now landing page"
                 />
               </a>
-              <div className="w-100 row justify-content-around ml-1 mr-1">
+              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
                   className="button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://kohringsw.github.io/hike-now/"
@@ -47,114 +48,8 @@ function Design() {
             </div>
           </div>
 
-          <div className="container row col-12">
-            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
-              <a
-                href="https://kohringsw.github.io/hike-now/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="img p-2 d-block w-100 h-auto"
-                  src={hikeNowImg}
-                  alt="Hike Now landing page"
-                />
-              </a>
-              <div className="w-100 row justify-content-around ml-1 mr-1">
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://kohringsw.github.io/hike-now/"
-                  target="_blank "
-                  rel="noreferrer"
-                >
-                  App Website
-                </a>
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://github.com/kohringsw/hike-now"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub Repo
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="container row col-12">
-            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
-              <a
-                href="https://kohringsw.github.io/hike-now/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="img p-2 d-block w-100 h-auto"
-                  src={hikeNowImg}
-                  alt="Hike Now landing page"
-                />
-              </a>
-              <div className="w-100 row justify-content-around ml-1 mr-1">
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://kohringsw.github.io/hike-now/"
-                  target="_blank "
-                  rel="noreferrer"
-                >
-                  App Website
-                </a>
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://github.com/kohringsw/hike-now"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub Repo
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="section-title">
-            <h1 className="m-4 pb-3">Web Development</h1>
-          </div>
-
-          <div className="container row col-12">
-            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
-              <a
-                href="https://kohringsw.github.io/hike-now/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="img p-2 d-block w-100 h-auto"
-                  src={hikeNowImg}
-                  alt="Hike Now landing page"
-                />
-              </a>
-              <div className="w-100 row justify-content-around ml-1 mr-1">
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://kohringsw.github.io/hike-now/"
-                  target="_blank "
-                  rel="noreferrer"
-                >
-                  App Website
-                </a>
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://github.com/kohringsw/hike-now"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub Repo
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="container row col-12">
-            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
+          <div className="d-flex justify-content-center mb-5">
+            <div className="mx-5 mt-2">
               <a
                 href="https://lit-escarpment-33126.herokuapp.com/"
                 target="_blank"
@@ -166,7 +61,7 @@ function Design() {
                   alt="Hike Now landing page"
                 />
               </a>
-              <div className="w-100 row justify-content-around ml-1 mr-1">
+              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
                   className="button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://lit-escarpment-33126.herokuapp.com/"
@@ -187,8 +82,8 @@ function Design() {
             </div>
           </div>
 
-          <div className="container row col-12">
-            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
+          <div className="d-flex justify-content-center mb-5">
+            <div className="mx-5 mt-2">
               <a
                 href="https://kohringsw.github.io/simply-plan-it/"
                 target="_blank"
@@ -200,7 +95,7 @@ function Design() {
                   alt="Simply Plan It landing page"
                 />
               </a>
-              <div className="w-100 row justify-content-around ml-1 mr-1">
+              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
                   className="button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://kohringsw.github.io/simply-plan-it/"
@@ -223,8 +118,8 @@ function Design() {
 
           
 
-          <div className="container row col-12">
-            <div className="hike-now row ml-4 mr-1 mb-5 mt-2">
+          <div className="d-flex justify-content-center mb-5">
+            <div className="mx-5 mt-2">
               <a
                 href="https://the-bookfast-club.herokuapp.com/"
                 target="_blank"
@@ -236,7 +131,7 @@ function Design() {
                   alt="Bookfast Club landing page"
                 />
               </a>
-              <div className="w-100 row justify-content-around ml-1 mr-1">
+              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
                   className="button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://the-bookfast-club.herokuapp.com/"

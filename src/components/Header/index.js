@@ -8,7 +8,7 @@ function Header(props) {
   return (
     <header className="header-box">
       <div className="d-flex justify-content-center align-content-center">
-        <img src={skDesignsLogo} className="logo m-4" />
+        <img src={skDesignsLogo} className="logo m-4" alt="SK Designs Logo" />
       </div>
       <Nav
         sectionSelected={sectionSelected}
