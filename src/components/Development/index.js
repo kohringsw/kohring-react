@@ -16,14 +16,25 @@ function Development() {
 
           <div className="mb-5 mx-5">
             <p>
-              Below are a few of the development projects Shelby produced through the Coding Bootcamp with Vanderbilt. To learn more about these apps use the buttons under the images to navigate to the app website or the GitHub repository. You can also visit <a href="https://github.com/kohringsw" target="_blank" rel="noreferrer">Shelby's GitHub profile</a> to see more of his web development work. 
+              Below are a few of the development projects Shelby produced
+              through the Coding Bootcamp with Vanderbilt. To learn more about
+              these apps use the buttons under the images to navigate to the app
+              website or the GitHub repository. You can also visit{" "}
+              <a
+                href="https://github.com/shelbykohring"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Shelby's GitHub profile
+              </a>{" "}
+              to see more of his web development work.
             </p>
           </div>
 
           <div className="d-flex justify-content-center mb-5">
             <div className="mx-5 mt-2">
               <a
-                href="https://kohringsw.github.io/hike-now/"
+                href="https://shelbykohring.github.io/hike-now/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -36,7 +47,7 @@ function Development() {
               <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
                   className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://kohringsw.github.io/hike-now/"
+                  href="https://shelbykohring.github.io/hike-now/"
                   target="_blank "
                   rel="noreferrer"
                 >
@@ -44,7 +55,7 @@ function Development() {
                 </a>
                 <a
                   className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://github.com/kohringsw/hike-now"
+                  href="https://github.com/shelbykohring/hike-now"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -91,7 +102,7 @@ function Development() {
           <div className="d-flex justify-content-center mb-5">
             <div className="mx-5 mt-2">
               <a
-                href="https://kohringsw.github.io/simply-plan-it/"
+                href="https://shelbykohring.github.io/simply-plan-it/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -104,7 +115,7 @@ function Development() {
               <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
                   className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://kohringsw.github.io/simply-plan-it/"
+                  href="https://shelbykohring.github.io/simply-plan-it/"
                   target="_blank "
                   rel="noreferrer"
                 >
@@ -112,7 +123,7 @@ function Development() {
                 </a>
                 <a
                   className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://github.com/kohringsw/simply-plan-it"
+                  href="https://github.com/shelbykohring/simply-plan-it"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -125,7 +136,7 @@ function Development() {
           <div className="d-flex justify-content-center mb-5">
             <div className="mx-5 mt-2">
               <a
-                href="https://kohringsw.github.io/weather-dashboard/"
+                href="https://shelbykohring.github.io/weather-dashboard/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -138,7 +149,7 @@ function Development() {
               <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
                   className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://kohringsw.github.io/weather-dashboard/"
+                  href="https://shelbykohring.github.io/weather-dashboard/"
                   target="_blank "
                   rel="noreferrer"
                 >
@@ -146,7 +157,7 @@ function Development() {
                 </a>
                 <a
                   className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://github.com/kohringsw/weather-dashboard"
+                  href="https://github.com/shelbykohring/weather-dashboard"
                   target="_blank"
                   rel="noreferrer"
                 >
