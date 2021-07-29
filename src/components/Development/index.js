@@ -16,7 +16,7 @@ function Development() {
 
           <div className="mb-5 mx-5">
             <p>
-              Below are a few of the development projects Shelby produced through the Coding Bootcamp with Vanderbilt. To learn more about these apps use the buttons under the images to navigate to the app website or the GitHub repository. You can also visit <a href="https://github.com/kohringsw" target="_blank">Shelby's GitHub profile</a> to see more of his web development work. 
+              Below are a few of the development projects Shelby produced through the Coding Bootcamp with Vanderbilt. To learn more about these apps use the buttons under the images to navigate to the app website or the GitHub repository. You can also visit <a href="https://github.com/kohringsw" target="_blank" rel="noreferrer">Shelby's GitHub profile</a> to see more of his web development work. 
             </p>
           </div>
 

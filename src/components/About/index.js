@@ -1,5 +1,5 @@
 import React from "react";
-import coverImage from "../../assets/images/kohr-development-hero.jpg";
+import coverImage from "../../assets/images/shelby-kohring-profile.jpg";
 
 function About() {
   return (

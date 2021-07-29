@@ -1,5 +1,4 @@
 import React from "react";
-import hikeNowImg from "../../assets/images/hike-now.png";
 import bhymwolfImg from "../../assets/images/graphic-design/logos/bhym-wolf.png";
 import cassafrasImg from "../../assets/images/graphic-design/logos/cassafras.png";
 import creeksideImg from "../../assets/images/graphic-design/logos/creekside.png";
@@ -22,6 +21,18 @@ import twowolves2018Img from "../../assets/images/graphic-design/shirts/twowolve
 import twowolves2019Img from "../../assets/images/graphic-design/shirts/twowolves2019.png";
 import wayfindersFrontImg from "../../assets/images/graphic-design/shirts/wayfinders-front.png";
 import wayfindersBackImg from "../../assets/images/graphic-design/shirts/wayfinders-back.png";
+import fatfImg from "../../assets/images/graphic-design/invites/fatf-invite.png";
+import fiestavalImg from "../../assets/images/graphic-design/invites/fiestaval.png";
+import americanIdolImg from "../../assets/images/graphic-design/posters/american-idol.png";
+import betterThanImg from "../../assets/images/graphic-design/posters/better-than-one.png";
+import strongTowerImg from "../../assets/images/graphic-design/posters/strong-tower.png";
+import tapestryImg from "../../assets/images/graphic-design/posters/tapestry.png";
+import impactImg from "../../assets/images/graphic-design/banners/impact-promotion.png";
+import revolutionImg from "../../assets/images/graphic-design/banners/revolution-promotion.png";
+import jj04Img from "../../assets/images/graphic-design/banners/jovenes-journal-04.png";
+import jj05Img from "../../assets/images/graphic-design/banners/jovenes-journal-05.png";
+import jj06Img from "../../assets/images/graphic-design/banners/jovenes-journal-06.png";
+import jj07Img from "../../assets/images/graphic-design/banners/jovenes-journal-07.png";
 
 function Design() {
   return (
@@ -39,13 +50,18 @@ function Design() {
               projects he has added to his portfolio, from logos and shirt
               designs, to posters and promtional graphics. Designing for
               organizations such as{" "}
-              <a href="http://www.jovenesencamino.org/" target="_blank">
+              <a
+                href="http://www.jovenesencamino.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Jovenes en Camino
               </a>
               ,{" "}
               <a
                 href="https://www.lipscomb.edu/about/offices-and-services/spiritual-outreach/impact-2021"
                 target="_blank"
+                rel="noreferrer"
               >
                 Lipscomb University's IMPACT
               </a>
@@ -168,7 +184,6 @@ function Design() {
 
           {/* T-SHIRT LAYOUT */}
           <div className="graphics-container d-flex justify-content-center align-items-center row">
-            
             {/* DENIS T-SHIRT */}
             <div className="col-5 mb-5">
               <img
@@ -288,6 +303,138 @@ function Design() {
             </div>
 
             <div className="w-100"></div>
+          </div>
+
+          {/* JOVENES JOURNAL */}
+          <div className="section-title d-flex justify-content-center">
+            <h1 className="my-4 font-weight-light">THE JOVENES JOURNAL</h1>
+          </div>
+
+          {/* JOVENES JOURNAL */}
+          <div className="graphics-container d-flex justify-content-center align-items-center row">
+
+            {/* APRIL EMAIL HEADER */}
+            <div className="col-10 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={jj04Img}
+                alt="April email header for the Jovenes Journal, a monthly journal sent to supporters of Jovenes en Camino in El Zamorano, Honduras"
+              />
+            </div>
+
+            {/* MAY EMAIL HEADER */}
+            <div className="col-10 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={jj05Img}
+                alt="May email header for the Jovenes Journal, a monthly journal sent to supporters of Jovenes en Camino in El Zamorano, Honduras"
+              />
+            </div>
+
+            {/* JUNE EMAIL HEADER */}
+            <div className="col-10 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={jj06Img}
+                alt="June email header for the Jovenes Journal, a monthly journal sent to supporters of Jovenes en Camino in El Zamorano, Honduras"
+              />
+            </div>
+
+            {/* JULY EMAIL HEADER */}
+            <div className="col-10 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={jj07Img}
+                alt="July email header for the Jovenes Journal, a monthly journal sent to supporters of Jovenes en Camino in El Zamorano, Honduras"
+              />
+            </div>
+          </div>
+
+          {/* PROMOTIONAL */}
+          <div className="section-title d-flex justify-content-center">
+            <h1 className="my-4 font-weight-light">PROMOTIONAL</h1>
+          </div>
+
+          {/* PROMOTIONAL LAYOUT */}
+          <div className="graphics-container d-flex justify-content-center align-items-center row">
+            
+            {/* FIESTA AT THE FARM PROMOTION */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={fatfImg}
+                alt="Invitation for Fiesta at the Farm, a benefit of Jovenes en Camino in El Zamorano, Honduras"
+              />
+            </div>
+
+            {/* FIESTAVAL PROMOTION */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={fiestavalImg}
+                alt="Invitation for 2021 Fiestaval and Glow run, a benefit of Jovenes en Camino in El Zamorano, Honduras"
+              />
+            </div>
+
+            <div className="w-100"></div>
+
+            {/* AMERICAN IDOL PROMOTION */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={americanIdolImg}
+                alt="Promotional poster for a teaching series titled American Idol"
+              />
+            </div>
+
+            {/* BETTER THAN ONE PROMOTION */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={betterThanImg}
+                alt="Promotional poster for a teaching series titled Better Than One"
+              />
+            </div>
+
+            <div className="w-100"></div>
+
+            {/* STRONG TOWER PROMOTION */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={strongTowerImg}
+                alt="Promotional poster for a teaching series titled Strong Tower"
+              />
+            </div>
+
+            {/* TAPESTRY PROMOTION */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={tapestryImg}
+                alt="Promotional poster for a teaching series titled Tapestry"
+              />
+            </div>
+
+            <div className="w-100"></div>
+
+            {/* IMPACT PROMOTION */}
+            <div className="col-10 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={impactImg}
+                alt="Promotional banner for IMPACT 2014 with a gaming theme titled RPG"
+              />
+            </div>
+
+            {/* REVOLUTION PROMOTION */}
+            <div className="col-10 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={revolutionImg}
+                alt="Promotional banner for a teaching series on taking action in our community titled Revolution"
+              />
+            </div>
           </div>
         </section>
       </div>
