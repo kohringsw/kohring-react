@@ -33,11 +33,14 @@ import jj04Img from "../../assets/images/graphic-design/banners/jovenes-journal-
 import jj05Img from "../../assets/images/graphic-design/banners/jovenes-journal-05.png";
 import jj06Img from "../../assets/images/graphic-design/banners/jovenes-journal-06.png";
 import jj07Img from "../../assets/images/graphic-design/banners/jovenes-journal-07.png";
+import jessiArrowsImg from "../../assets/images/graphic-design/tattoo/arrows-jessi.png";
+import shelbyArrowsImg from "../../assets/images/graphic-design/tattoo/arrows-shelby.png";
+import graceandpeaceImg from "../../assets/images/graphic-design/tattoo/grace-and-peace.png";
 
 function Design() {
   return (
     <main>
-      <div className="project">
+      <div className="project mb-5">
         <section className="projects col-12">
           <div className="section-title d-flex justify-content-center">
             <h1 className="m-5 font-weight-light">GRAPHIC DESIGN</h1>
@@ -45,10 +48,10 @@ function Design() {
 
           <div className="mx-5">
             <p>
-              Creating graphics has been a passion for Shelby since he was in
+              Creating graphics has been a passion of Shelby's since he was in
               high school. Below you can see a handful of the more recent
-              projects he has added to his portfolio, from logos and shirt
-              designs, to posters and promtional graphics. Designing for
+              projects he has added to his portfolio, from logo and shirt
+              design, to posters and promotional graphics. Designing over the years for
               organizations such as{" "}
               <a
                 href="http://www.jovenesencamino.org/"
@@ -65,9 +68,7 @@ function Design() {
               >
                 Lipscomb University's IMPACT
               </a>
-              , and various other groups and partners nationwide, over the years
-              Shelby has continued to learn more about the importance of graphic
-              design and the ways it can and needs to grab your attention.
+              , and various other groups and partners nationwide, Shelby continues to increase his skill and better understand the need for engaging and captivating design. 
             </p>
           </div>
 
@@ -123,7 +124,7 @@ function Design() {
               <img
                 className="p-4 w-100 h-auto"
                 src={fiestaImg}
-                alt="Logo for Fiesta at the Farm, a benefit of Jovenes en Camino in El Zamorano, Honduras"
+                alt="Logo for Fiesta at the Farm, a benefit of Jovenes en Camino"
               />
             </div>
 
@@ -307,18 +308,17 @@ function Design() {
 
           {/* JOVENES JOURNAL */}
           <div className="section-title d-flex justify-content-center">
-            <h1 className="my-4 font-weight-light">THE JOVENES JOURNAL</h1>
+            <h1 className="my-5 font-weight-light">THE JOVENES JOURNAL</h1>
           </div>
 
           {/* JOVENES JOURNAL */}
           <div className="graphics-container d-flex justify-content-center align-items-center row">
-
             {/* APRIL EMAIL HEADER */}
             <div className="col-10 mb-5">
               <img
                 className="p-3 w-100 h-auto"
                 src={jj04Img}
-                alt="April email header for the Jovenes Journal, a monthly journal sent to supporters of Jovenes en Camino in El Zamorano, Honduras"
+                alt="April email header for the Jovenes Journal sent to supporters of Jovenes en Camino"
               />
             </div>
 
@@ -327,7 +327,7 @@ function Design() {
               <img
                 className="p-3 w-100 h-auto"
                 src={jj05Img}
-                alt="May email header for the Jovenes Journal, a monthly journal sent to supporters of Jovenes en Camino in El Zamorano, Honduras"
+                alt="May email header for the Jovenes Journal sent to supporters of Jovenes en Camino"
               />
             </div>
 
@@ -336,7 +336,7 @@ function Design() {
               <img
                 className="p-3 w-100 h-auto"
                 src={jj06Img}
-                alt="June email header for the Jovenes Journal, a monthly journal sent to supporters of Jovenes en Camino in El Zamorano, Honduras"
+                alt="June email header for the Jovenes Journal sent to supporters of Jovenes en Camino"
               />
             </div>
 
@@ -345,25 +345,24 @@ function Design() {
               <img
                 className="p-3 w-100 h-auto"
                 src={jj07Img}
-                alt="July email header for the Jovenes Journal, a monthly journal sent to supporters of Jovenes en Camino in El Zamorano, Honduras"
+                alt="July email header for the Jovenes Journal sent to supporters of Jovenes en Camino"
               />
             </div>
           </div>
 
           {/* PROMOTIONAL */}
           <div className="section-title d-flex justify-content-center">
-            <h1 className="my-4 font-weight-light">PROMOTIONAL</h1>
+            <h1 className="my-5 font-weight-light">PROMOTIONAL</h1>
           </div>
 
           {/* PROMOTIONAL LAYOUT */}
           <div className="graphics-container d-flex justify-content-center align-items-center row">
-            
             {/* FIESTA AT THE FARM PROMOTION */}
             <div className="col-5 mb-5">
               <img
                 className="p-3 w-100 h-auto"
                 src={fatfImg}
-                alt="Invitation for Fiesta at the Farm, a benefit of Jovenes en Camino in El Zamorano, Honduras"
+                alt="Invitation for Fiesta at the Farm, a benefit of Jovenes en Camino"
               />
             </div>
 
@@ -372,7 +371,7 @@ function Design() {
               <img
                 className="p-3 w-100 h-auto"
                 src={fiestavalImg}
-                alt="Invitation for 2021 Fiestaval and Glow run, a benefit of Jovenes en Camino in El Zamorano, Honduras"
+                alt="Invitation for 2021 Fiestaval and Glow run, a benefit of Jovenes en Camino"
               />
             </div>
 
@@ -434,6 +433,45 @@ function Design() {
                 src={revolutionImg}
                 alt="Promotional banner for a teaching series on taking action in our community titled Revolution"
               />
+            </div>
+
+            {/* TATTOO DESIGN */}
+            <div className="section-title d-flex justify-content-center">
+              <h1 className="my-4 font-weight-light">TATTOO DESIGN</h1>
+            </div>
+
+            {/* TATTOO DESIGN LAYOUT */}
+            <div className="graphics-container d-flex justify-content-center align-items-center row">
+              
+              {/* SHELBY'S ARROWS */}
+              <div className="col-5">
+                <img
+                  className="w-100 h-auto"
+                  src={shelbyArrowsImg}
+                  alt="Invitation for Fiesta at the Farm, a benefit of Jovenes en Camino"
+                />
+              </div>
+
+              {/* JESSI'S ARROWS */}
+              <div className="col-5">
+                <img
+                  className="w-100 h-auto"
+                  src={jessiArrowsImg}
+                  alt="Invitation for Fiesta at the Farm, a benefit of Jovenes en Camino"
+                />
+              </div>
+
+              <div className="w-100"></div>
+
+              {/* GRACE AND PEACE */}
+              <div className="col-6">
+                <img
+                  className="w-100 h-auto"
+                  src={graceandpeaceImg}
+                  alt="Invitation for Fiesta at the Farm, a benefit of Jovenes en Camino"
+                />
+              </div>
+              
             </div>
           </div>
         </section>
