@@ -10,6 +10,18 @@ import lugoHomesImg from "../../assets/images/graphic-design/logos/lugo-homes.pn
 import seekImg from "../../assets/images/graphic-design/logos/seek-impact.png";
 import tinyHomeTreatsImg from "../../assets/images/graphic-design/logos/tiny-home-treats.png";
 import twowolvesImg from "../../assets/images/graphic-design/logos/two-wolves.png";
+import denisImg from "../../assets/images/graphic-design/shirts/denis.png";
+import entrenchedImg from "../../assets/images/graphic-design/shirts/entrenched.png";
+import greatestShowImg from "../../assets/images/graphic-design/shirts/greatest-show.png";
+import hcaImg from "../../assets/images/graphic-design/shirts/hca-2020.png";
+import impact2019Img from "../../assets/images/graphic-design/shirts/impact2019.png";
+import impact2020Img from "../../assets/images/graphic-design/shirts/impact2020.png";
+import impact2021FrontImg from "../../assets/images/graphic-design/shirts/impact2021-front.png";
+import impact2021BackImg from "../../assets/images/graphic-design/shirts/impact2021-back.png";
+import twowolves2018Img from "../../assets/images/graphic-design/shirts/twowolves2018.png";
+import twowolves2019Img from "../../assets/images/graphic-design/shirts/twowolves2019.png";
+import wayfindersFrontImg from "../../assets/images/graphic-design/shirts/wayfinders-front.png";
+import wayfindersBackImg from "../../assets/images/graphic-design/shirts/wayfinders-back.png";
 
 function Design() {
   return (
@@ -37,21 +49,21 @@ function Design() {
               >
                 Lipscomb University's IMPACT
               </a>
-              , and various groups nationwide, over the years Shelby has
-              continued to learn more about the importance of graphic design and
-              the ways it can and needs to grab your attention.
+              , and various other groups and partners nationwide, over the years
+              Shelby has continued to learn more about the importance of graphic
+              design and the ways it can and needs to grab your attention.
             </p>
           </div>
 
+          {/* LOGOS */}
           <div className="section-title d-flex justify-content-center">
             <h1 className="my-4 font-weight-light">LOGOS</h1>
           </div>
 
           {/* LOGO LAYOUT */}
           <div className="graphics-container d-flex justify-content-center align-items-center row">
-
-          {/* BYHM LOGO */}
-          <div className="col-5 mb-5">
+            {/* BYHM LOGO */}
+            <div className="col-5 mb-5">
               <img
                 className="p-4 w-100 h-auto"
                 src={bhymwolfImg}
@@ -67,9 +79,9 @@ function Design() {
                 alt="Logo for Cassafras, an online boutique based in middle Tennessee operated by Cassie Cauley"
               />
             </div>
-            
+
             <div className="w-100"></div>
-            
+
             {/* CREEKSIDE LOGO */}
             <div className="col-5 mb-5">
               <img
@@ -78,7 +90,7 @@ function Design() {
                 alt="Logo for Creekside, a venue for gathering in Lebanon, Tennessee"
               />
             </div>
-            
+
             {/* EMERALD COAST LOGO */}
             <div className="col-5 mb-5">
               <img
@@ -147,6 +159,135 @@ function Design() {
                 alt="Two Wolves logo representing the Best Buddies charity at Lipscomb Univeristy's IMPACT"
               />
             </div>
+          </div>
+
+          {/* T-SHIRTS */}
+          <div className="section-title d-flex justify-content-center">
+            <h1 className="my-4 font-weight-light">T-SHIRTS</h1>
+          </div>
+
+          {/* T-SHIRT LAYOUT */}
+          <div className="graphics-container d-flex justify-content-center align-items-center row">
+            
+            {/* DENIS T-SHIRT */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={denisImg}
+                alt="Denis t-shirt"
+              />
+            </div>
+
+            {/* ENTRENCHED T-SHIRT */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={entrenchedImg}
+                alt="Entrenched t-shirt"
+              />
+            </div>
+
+            <div className="w-100"></div>
+
+            {/* GREATEST SHOW T-SHIRT */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={greatestShowImg}
+                alt="Greatest Show t-shirt"
+              />
+            </div>
+
+            {/* HCA 2020 T-SHIRT */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={hcaImg}
+                alt="HCA 2020 t-shirt"
+              />
+            </div>
+
+            <div className="w-100"></div>
+
+            {/* IMPACT 2019 T-SHIRT */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={impact2019Img}
+                alt="IMPACT 2019 t-shirt"
+              />
+            </div>
+
+            {/* IMPACT 2020 T-SHIRT */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={impact2020Img}
+                alt="IMPACT 2020 t-shirt"
+              />
+            </div>
+
+            <div className="w-100"></div>
+
+            {/* IMPACT 2021 T-SHIRT--FRONT SIDE */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={impact2021FrontImg}
+                alt="The front of the IMPACT 2021 t-shirt"
+              />
+            </div>
+
+            {/* IMPACT 2021 T-SHIRT--BACK SIDE */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={impact2021BackImg}
+                alt="The back of the IMPACT 2021 t-shirt"
+              />
+            </div>
+
+            <div className="w-100"></div>
+
+            {/* TWO WOLVES 2018 T-SHIRT */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={twowolves2018Img}
+                alt="Two Wolves 2018 t-shirt"
+              />
+            </div>
+
+            {/* TWO WOLVES 2019 T-SHIRT */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={twowolves2019Img}
+                alt="Two Wolves 2019 t-shirt"
+              />
+            </div>
+
+            <div className="w-100"></div>
+
+            {/* WAYFINDERS T-SHIRT--FRONT SIDE */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={wayfindersFrontImg}
+                alt="The front of the Wayfinders t-shirt"
+              />
+            </div>
+
+            {/* WAYFINDERS T-SHIRT--BACK SIDE */}
+            <div className="col-5 mb-5">
+              <img
+                className="w-100 h-auto"
+                src={wayfindersBackImg}
+                alt="The back of the Wayfinders t-shirt"
+              />
+            </div>
+
+            <div className="w-100"></div>
           </div>
         </section>
       </div>
