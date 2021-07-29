@@ -1,17 +1,23 @@
 import React from "react";
-import moosicImg from '../../assets/images/moosic.png';
+import moosicImg from "../../assets/images/moosic.png";
 import hikeNowImg from "../../assets/images/hike-now.png";
 import planItImg from "../../assets/images/simply-plan-it.png";
 import bookfastClubImg from "../../assets/images/bookfast-club.png";
+import weatherDashboardImg from "../../assets/images/weather-dashboard.png";
 
 function Development() {
   return (
     <main>
       <div className="project">
         <section className="projects col-12">
-
           <div className="section-title d-flex justify-content-center">
             <h1 className="m-5 font-weight-light">WEB DEVELOPMENT</h1>
+          </div>
+
+          <div className="mb-5 mx-5">
+            <p>
+              Below are a few of the development projects Shelby produced through the Coding Bootcamp with Vanderbilt. To learn more about these apps use the buttons under the images to navigate to the app website or the GitHub repository. You can also visit <a href="https://github.com/kohringsw" target="_blank">Shelby's GitHub profile</a> to see more of his web development work. 
+            </p>
           </div>
 
           <div className="d-flex justify-content-center mb-5">
@@ -116,7 +122,39 @@ function Development() {
             </div>
           </div>
 
-          
+          <div className="d-flex justify-content-center mb-5">
+            <div className="mx-5 mt-2">
+              <a
+                href="https://kohringsw.github.io/weather-dashboard/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="img p-2 w-100 d-block h-auto"
+                  src={weatherDashboardImg}
+                  alt="Weather Dashboard landing page"
+                />
+              </a>
+              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
+                <a
+                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  href="https://kohringsw.github.io/weather-dashboard/"
+                  target="_blank "
+                  rel="noreferrer"
+                >
+                  App Website
+                </a>
+                <a
+                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  href="https://github.com/kohringsw/weather-dashboard"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
 
           <div className="d-flex justify-content-center mb-5">
             <div className="mx-5 mt-2">

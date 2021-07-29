@@ -18,14 +18,13 @@ function About() {
           Shelby was born and raised in Knoxville, Tennessee. He went to college
           at Lipscomb University from 2003-2007, where he received a Bachelor of
           Arts degree. He graduated in December of 2007 and spent 13 years as a
-          student pastor. While working on staff at three different churches
-          during that time, he developed a professional skillset in relational
+          student pastor. During his time on staff with three different churches, he developed a professional skillset in relational
           team-building, communications, public speaking and presentations, and
           graphic design.
         </p>
         <p>
           He is married to his beautiful wife, Jessi. They have three amazing
-          kids, Ezra Kate, Eli Reese, and Knox. They currently live in Bethpage,
+          kids: Ezra Kate, Eli Reese, and Knox. They currently live in Bethpage,
           Tennessee where they love to play outside, read fun books, watch
           movies together, and dream about when their next trip to Honduras will
           be.

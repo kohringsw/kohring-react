@@ -1,154 +1,151 @@
 import React from "react";
-import moosicImg from '../../assets/images/moosic.png';
 import hikeNowImg from "../../assets/images/hike-now.png";
-import planItImg from "../../assets/images/simply-plan-it.png";
-import bookfastClubImg from "../../assets/images/bookfast-club.png";
+import bhymwolfImg from "../../assets/images/graphic-design/logos/bhym-wolf.png";
+import cassafrasImg from "../../assets/images/graphic-design/logos/cassafras.png";
+import creeksideImg from "../../assets/images/graphic-design/logos/creekside.png";
+import emeraldCoastImg from "../../assets/images/graphic-design/logos/emerald-coast.png";
+import fiestaImg from "../../assets/images/graphic-design/logos/fiesta-at-the-farm.png";
+import kohringAcademyImg from "../../assets/images/graphic-design/logos/kohring-academy.png";
+import lugoHomesImg from "../../assets/images/graphic-design/logos/lugo-homes.png";
+import seekImg from "../../assets/images/graphic-design/logos/seek-impact.png";
+import tinyHomeTreatsImg from "../../assets/images/graphic-design/logos/tiny-home-treats.png";
+import twowolvesImg from "../../assets/images/graphic-design/logos/two-wolves.png";
 
 function Design() {
   return (
     <main>
       <div className="project">
         <section className="projects col-12">
-
           <div className="section-title d-flex justify-content-center">
             <h1 className="m-5 font-weight-light">GRAPHIC DESIGN</h1>
           </div>
 
-          <div className="d-flex justify-content-center mb-5">
-            <div className="mx-5 mt-2">
-              <a
-                href="https://kohringsw.github.io/hike-now/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="img p-2 d-block w-100 h-auto"
-                  src={hikeNowImg}
-                  alt="Hike Now landing page"
-                />
+          <div className="mx-5">
+            <p>
+              Creating graphics has been a passion for Shelby since he was in
+              high school. Below you can see a handful of the more recent
+              projects he has added to his portfolio, from logos and shirt
+              designs, to posters and promtional graphics. Designing for
+              organizations such as{" "}
+              <a href="http://www.jovenesencamino.org/" target="_blank">
+                Jovenes en Camino
               </a>
-              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://kohringsw.github.io/hike-now/"
-                  target="_blank "
-                  rel="noreferrer"
-                >
-                  App Website
-                </a>
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://github.com/kohringsw/hike-now"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub Repo
-                </a>
-              </div>
-            </div>
+              ,{" "}
+              <a
+                href="https://www.lipscomb.edu/about/offices-and-services/spiritual-outreach/impact-2021"
+                target="_blank"
+              >
+                Lipscomb University's IMPACT
+              </a>
+              , and various groups nationwide, over the years Shelby has
+              continued to learn more about the importance of graphic design and
+              the ways it can and needs to grab your attention.
+            </p>
           </div>
 
-          <div className="d-flex justify-content-center mb-5">
-            <div className="mx-5 mt-2">
-              <a
-                href="https://lit-escarpment-33126.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="img p-2 d-block w-100 h-auto"
-                  src={moosicImg}
-                  alt="Hike Now landing page"
-                />
-              </a>
-              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://lit-escarpment-33126.herokuapp.com/"
-                  target="_blank "
-                  rel="noreferrer"
-                >
-                  App Website
-                </a>
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://github.com/Ondayko14/Moosic"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub Repo
-                </a>
-              </div>
-            </div>
+          <div className="section-title d-flex justify-content-center">
+            <h1 className="my-4 font-weight-light">LOGOS</h1>
           </div>
 
-          <div className="d-flex justify-content-center mb-5">
-            <div className="mx-5 mt-2">
-              <a
-                href="https://kohringsw.github.io/simply-plan-it/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="img p-2 w-100 d-block h-auto"
-                  src={planItImg}
-                  alt="Simply Plan It landing page"
-                />
-              </a>
-              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://kohringsw.github.io/simply-plan-it/"
-                  target="_blank "
-                  rel="noreferrer"
-                >
-                  App Website
-                </a>
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://github.com/kohringsw/simply-plan-it"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub Repo
-                </a>
-              </div>
+          {/* LOGO LAYOUT */}
+          <div className="graphics-container d-flex justify-content-center align-items-center row">
+
+          {/* BYHM LOGO */}
+          <div className="col-5 mb-5">
+              <img
+                className="p-4 w-100 h-auto"
+                src={bhymwolfImg}
+                alt="Logo for the Burnt Hickory Youth Ministry at Burnt Hickory Church of Christ in Marietta, Georgia"
+              />
             </div>
-          </div>
 
-          
+            {/* CASSAFRAS LOGO */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-4 w-100 h-auto"
+                src={cassafrasImg}
+                alt="Logo for Cassafras, an online boutique based in middle Tennessee operated by Cassie Cauley"
+              />
+            </div>
+            
+            <div className="w-100"></div>
+            
+            {/* CREEKSIDE LOGO */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-4 w-100 h-auto"
+                src={creeksideImg}
+                alt="Logo for Creekside, a venue for gathering in Lebanon, Tennessee"
+              />
+            </div>
+            
+            {/* EMERALD COAST LOGO */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-4 w-100 h-auto"
+                src={emeraldCoastImg}
+                alt="Logo for the Emerald Coast Grand Hotel, a ficticious hotel for a theater production at Lipscomb University's IMPACT"
+              />
+            </div>
 
-          <div className="d-flex justify-content-center mb-5">
-            <div className="mx-5 mt-2">
-              <a
-                href="https://the-bookfast-club.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="img p-2 w-100 d-block h-auto"
-                  src={bookfastClubImg}
-                  alt="Bookfast Club landing page"
-                />
-              </a>
-              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://the-bookfast-club.herokuapp.com/"
-                  target="_blank "
-                  rel="noreferrer"
-                >
-                  App Website
-                </a>
-                <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
-                  href="https://github.com/BeatyPete/the-bookfast-club.git"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub Repo
-                </a>
-              </div>
+            <div className="w-100"></div>
+
+            {/* FIESTA AT THE FARM LOGO */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-4 w-100 h-auto"
+                src={fiestaImg}
+                alt="Logo for Fiesta at the Farm, a benefit of Jovenes en Camino in El Zamorano, Honduras"
+              />
+            </div>
+
+            {/* KOHRING ACADEMY LOGO */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-4 w-100 h-auto"
+                src={kohringAcademyImg}
+                alt="Logo for Kohring Academy, a homeschool program for the Kohring family"
+              />
+            </div>
+
+            <div className="w-100"></div>
+
+            {/* LUGO HOMES LOGO */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-4 w-100 h-auto"
+                src={lugoHomesImg}
+                alt="Logo for Lugo Hommes, LLC founded by Richy Teixeira"
+              />
+            </div>
+
+            {/* SEEK IMPACT LOGO */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={seekImg}
+                alt="Logo for IMPACT 2017 at Lipscomb Univeristy"
+              />
+            </div>
+
+            <div className="w-100"></div>
+
+            {/* TINY HOME TREATS LOGO */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-4 w-100 h-auto"
+                src={tinyHomeTreatsImg}
+                alt="Logo for Tiny Home Treats, a cookie decorating business"
+              />
+            </div>
+
+            {/* TWO WOLVES LOGO */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-5 w-100 h-auto"
+                src={twowolvesImg}
+                alt="Two Wolves logo representing the Best Buddies charity at Lipscomb Univeristy's IMPACT"
+              />
             </div>
           </div>
         </section>

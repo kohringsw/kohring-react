@@ -33,7 +33,7 @@ header {
 }
 
 .logo{
-  width: 30%;
+  width: 20%;
 }
 
 .header-box {
@@ -80,9 +80,9 @@ header nav ul li a:hover {
   color: var(--first-color);
 }
 
-.container {
+/* .container {
   padding: 0 0 0 25px;
-}
+} */
 
 .container h5:hover {
   color: var(--second-color);
@@ -112,7 +112,7 @@ header nav ul li a:hover {
   max-width: 1000px;
 }
 
-.button-container {
+.button-container, graphics-container {
   max-width: 1000px;
 }
 
