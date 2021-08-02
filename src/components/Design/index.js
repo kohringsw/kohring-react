@@ -23,6 +23,8 @@ import wayfindersFrontImg from "../../assets/images/graphic-design/shirts/wayfin
 import wayfindersBackImg from "../../assets/images/graphic-design/shirts/wayfinders-back.png";
 import fatfImg from "../../assets/images/graphic-design/invites/fatf-invite.png";
 import fiestavalImg from "../../assets/images/graphic-design/invites/fiestaval.png";
+import meninblueImg from "../../assets/images/graphic-design/posters/men-in-blue.png";
+import meninblue2Img from "../../assets/images/graphic-design/posters/men-in-blue-2.png";
 import americanIdolImg from "../../assets/images/graphic-design/posters/american-idol.png";
 import betterThanImg from "../../assets/images/graphic-design/posters/better-than-one.png";
 import strongTowerImg from "../../assets/images/graphic-design/posters/strong-tower.png";
@@ -59,6 +61,14 @@ function Design() {
                 rel="noreferrer"
               >
                 Jovenes en Camino
+              </a>
+              ,{" "}
+              <a
+                href="https://www.facebook.com/george.sapp.3152?id=100012589506283&sk=photos"
+                target="_blank"
+                rel="noreferrer"
+              >
+                NuGeneration, Inc.
               </a>
               ,{" "}
               <a
@@ -372,6 +382,24 @@ function Design() {
                 className="p-3 w-100 h-auto"
                 src={fiestavalImg}
                 alt="Invitation for 2021 Fiestaval and Glow run, a benefit of Jovenes en Camino"
+              />
+            </div>
+
+            {/* MEN IN BLUE PROMOTION */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={meninblueImg}
+                alt="Promotional poster for You and the Men in Blue with NuGeneration, Inc."
+              />
+            </div>
+
+            {/* MEN IN BLUE ALTERNATE PROMOTION */}
+            <div className="col-5 mb-5">
+              <img
+                className="p-3 w-100 h-auto"
+                src={meninblue2Img}
+                alt="Alternate Promotional poster for You and the Men in Blue with NuGeneration, Inc."
               />
             </div>
 
