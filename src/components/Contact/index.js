@@ -30,7 +30,7 @@ function ContactForm() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`A ${e.target.name} is required.`);
       } else {
         setErrorMessage("");
       }
@@ -102,7 +102,7 @@ function ContactForm() {
           </div>
           {errorMessage && (
             <div>
-              <p className="error-text">{errorMessage}</p>
+              <p className="error-text ml-3">{errorMessage}</p>
             </div>
           )}
           <button
