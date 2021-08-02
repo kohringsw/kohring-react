@@ -164,10 +164,17 @@ function Resume() {
           <b className="font-weight-bold font-italic">VANDERBILT UNIVERSITY</b>{" "}
           | 2020–21, Coding Bootcamp Certificate in Full Stack Web Development
           <br></br>
-          <b className="font-weight-bold font-italic">
-            LIPSCOMB UNIVERSITY
-          </b>{" "}
-          | 2003–07, Bachelor of Arts in Student Ministry
+          <b className="font-weight-bold font-italic">LIPSCOMB UNIVERSITY</b> |
+          2003–07, Bachelor of Arts in Student Ministry
+        </p>
+        <p className="mb-4">
+          <a
+            href="https://docs.google.com/document/d/1PvjHifEVk0cVRL59iPgk5NNOnW2EznF7Eu207A-1Ybs/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            See document version of Shelby's resume here
+          </a>
         </p>
       </div>
     </section>

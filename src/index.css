@@ -109,10 +109,10 @@ header nav ul li a:hover {
   font-weight: normal;
   font-size: 15px;
   background-color: var(--first-color);
-  max-width: 1000px;
+  max-width: 100px;
 }
 
-.button-container, graphics-container {
+.button-container {
   max-width: 1000px;
 }
 
