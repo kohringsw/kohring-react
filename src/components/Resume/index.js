@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
   return (
     <section className="d-flex justify-content-center font-weight-light">
-      <div className="resume m-5 col">
+      <div className="resume m-5 col-10">
         <h1 className="font-weight-light d-flex justify-content-center mb-3">
           SHELBY KOHRING
         </h1>
