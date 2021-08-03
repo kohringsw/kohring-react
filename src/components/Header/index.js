@@ -7,7 +7,7 @@ function Header(props) {
 
   return (
     <header className="header-box">
-      <div className="d-flex justify-content-center align-content-center">
+      <div>
         <img src={skDesignsLogo} className="logo m-4" alt="SK Designs Logo" />
       </div>
       <Nav

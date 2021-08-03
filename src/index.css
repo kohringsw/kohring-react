@@ -33,7 +33,7 @@ header {
 }
 
 .logo{
-  width: 20%;
+  width: 30%;
 }
 
 .header-box {
@@ -41,6 +41,12 @@ header {
   height: 100%;
   width: 100%;
   background-color: white;
+}
+
+.header-box div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 header nav {
@@ -57,7 +63,7 @@ header nav ul {
 
 header nav ul li a {
   padding: 0 30px;
-  font-size: 22px;
+  font-size: 20px;
   color: var(--first-color);
   letter-spacing: 4px;
 }
@@ -138,110 +144,58 @@ header nav ul li a:hover {
 
 /* MEDIA QUERY FOR 980PX SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
+  
   header {
     padding-bottom: 30px;
   }
-
-  header nav {
-    margin-bottom: -10px;
+  
+  .logo {
+    width: 30%;
   }
 
   header nav ul li a {
-    margin: 0;
-    font-size: 20px;
+    font-size: 16px;
     padding: 0 20px;
   }
 
-  .button {
-    font-size: 18px;
-  }
 }
 
 /* MEDIA QUERY FOR 768PX SCREENS AND SMALLER */
 @media screen and (max-width: 768px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  header nav ul {
-    display: block;
-    flex-wrap: wrap;
+  
+  .logo {
+    width: 35%;
   }
   
   header nav ul li a {
-    padding: 0 30px;
-    font-size: 20px;
-    color: white;
-    letter-spacing: 4px;
+    padding: 0 15px;
+    font-size: 13px;
+    color: var(--first-color);
+    letter-spacing: 2px;
   }
 
-  .button {
-    font-weight: normal;
-    font-size: 17px;
-  }
 }
 
 /* MEDIA QUERY FOR 575PX SCREENS AND SMALLER */
 @media screen and (max-width: 575px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  
+  .logo {
+    width: 50%;
   }
 
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  header {
-    padding-bottom: 30px;
-    justify-content: flex-start;
-    position: relative;
-  }
-
-  header h1 {
-    font-weight: bold;
-    font-size: 32px;
-    margin: 15px 0 15px 35px;
-  }
-
-  header nav {
-    margin-bottom: -30px;
+  .header-box div {
+    display: flex;
+    justify-content: center;
   }
 
   header nav ul {
-    display: block;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   header nav ul li a {
-    padding: 10 40 10 40px;
     font-size: 18px;
-    color: white;
-    letter-spacing: 4px;
+    color: var(--first-color);
+    letter-spacing: 2px;
   }
 
-  .button {
-    font-weight: lighter;
-    font-size: 12px;
-  }
 }
