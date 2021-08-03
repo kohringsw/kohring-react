@@ -198,4 +198,12 @@ header nav ul li a:hover {
     letter-spacing: 2px;
   }
 
+  .design h1, .webdev h1, .contact h1 {
+    font-size: 32px;
+  }
+
+  .resume h1 {
+    font-size: 28px;
+  }
+
 }

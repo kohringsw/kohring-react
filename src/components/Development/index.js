@@ -11,7 +11,7 @@ function Development() {
       <div className="project">
         <section className="projects col-12">
           <div className="webdev d-flex justify-content-center">
-            <h1 className="m-5 font-weight-light">WEB DEVELOPMENT</h1>
+            <h1 className="m-5 font-weight-light text-center">WEB DEVELOPMENT</h1>
           </div>
 
           <div className="webdev mb-5 mx-5">

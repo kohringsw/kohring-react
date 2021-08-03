@@ -45,7 +45,7 @@ function Design() {
       <div className="mb-5">
         <section className="col-12">
           <div className="design d-flex justify-content-center">
-            <h1 className="m-5 font-weight-light">GRAPHIC DESIGN</h1>
+            <h1 className="m-5 font-weight-light text-center">GRAPHIC DESIGN</h1>
           </div>
 
           <div className="design mx-5">
@@ -90,7 +90,7 @@ function Design() {
           {/* LOGO LAYOUT */}
           <div className="graphics-container d-flex justify-content-center align-items-center row">
             {/* BYHM LOGO */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="p-4 w-100 h-auto"
                 src={bhymwolfImg}
@@ -99,7 +99,7 @@ function Design() {
             </div>
 
             {/* CASSAFRAS LOGO */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="p-4 w-100 h-auto"
                 src={cassafrasImg}
@@ -110,7 +110,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* CREEKSIDE LOGO */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="p-4 w-100 h-auto"
                 src={creeksideImg}
@@ -119,7 +119,7 @@ function Design() {
             </div>
 
             {/* EMERALD COAST LOGO */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="p-4 w-100 h-auto"
                 src={emeraldCoastImg}
@@ -130,7 +130,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* FIESTA AT THE FARM LOGO */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="p-4 w-100 h-auto"
                 src={fiestaImg}
@@ -139,7 +139,7 @@ function Design() {
             </div>
 
             {/* KOHRING ACADEMY LOGO */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="p-4 w-100 h-auto"
                 src={kohringAcademyImg}
@@ -150,7 +150,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* LUGO HOMES LOGO */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="p-4 w-100 h-auto"
                 src={lugoHomesImg}
@@ -159,7 +159,7 @@ function Design() {
             </div>
 
             {/* SEEK IMPACT LOGO */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="p-3 w-100 h-auto"
                 src={seekImg}
@@ -170,7 +170,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* TINY HOME TREATS LOGO */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="p-4 w-100 h-auto"
                 src={tinyHomeTreatsImg}
@@ -179,7 +179,7 @@ function Design() {
             </div>
 
             {/* TWO WOLVES LOGO */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="p-5 w-100 h-auto"
                 src={twowolvesImg}
@@ -190,13 +190,13 @@ function Design() {
 
           {/* T-SHIRTS */}
           <div className="design d-flex justify-content-center">
-            <h1 className="my-4 font-weight-light">T-SHIRTS</h1>
+            <h1 className="my-4 font-weight-light text-center">T-SHIRTS</h1>
           </div>
 
           {/* T-SHIRT LAYOUT */}
           <div className="graphics-container d-flex justify-content-center align-items-center row">
             {/* DENIS T-SHIRT */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={denisImg}
@@ -205,7 +205,7 @@ function Design() {
             </div>
 
             {/* ENTRENCHED T-SHIRT */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={entrenchedImg}
@@ -216,7 +216,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* GREATEST SHOW T-SHIRT */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={greatestShowImg}
@@ -225,7 +225,7 @@ function Design() {
             </div>
 
             {/* HCA 2020 T-SHIRT */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={hcaImg}
@@ -236,7 +236,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* IMPACT 2019 T-SHIRT */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={impact2019Img}
@@ -245,7 +245,7 @@ function Design() {
             </div>
 
             {/* IMPACT 2020 T-SHIRT */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={impact2020Img}
@@ -256,7 +256,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* IMPACT 2021 T-SHIRT--FRONT SIDE */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={impact2021FrontImg}
@@ -265,7 +265,7 @@ function Design() {
             </div>
 
             {/* IMPACT 2021 T-SHIRT--BACK SIDE */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={impact2021BackImg}
@@ -276,7 +276,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* TWO WOLVES 2018 T-SHIRT */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={twowolves2018Img}
@@ -285,7 +285,7 @@ function Design() {
             </div>
 
             {/* TWO WOLVES 2019 T-SHIRT */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={twowolves2019Img}
@@ -296,7 +296,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* WAYFINDERS T-SHIRT--FRONT SIDE */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={wayfindersFrontImg}
@@ -305,7 +305,7 @@ function Design() {
             </div>
 
             {/* WAYFINDERS T-SHIRT--BACK SIDE */}
-            <div className="col-5 mb-5">
+            <div className="col-12 p-3 mb-5 col-sm">
               <img
                 className="w-100 h-auto"
                 src={wayfindersBackImg}
@@ -318,7 +318,7 @@ function Design() {
 
           {/* JOVENES JOURNAL */}
           <div className="design d-flex justify-content-center">
-            <h1 className="my-5 font-weight-light">THE JOVENES JOURNAL</h1>
+            <h1 className="mb-4 font-weight-light text-center">THE JOVENES JOURNAL</h1>
           </div>
 
           {/* JOVENES JOURNAL */}
@@ -362,13 +362,13 @@ function Design() {
 
           {/* PROMOTIONAL */}
           <div className="design d-flex justify-content-center">
-            <h1 className="my-5 font-weight-light">PROMOTIONAL</h1>
+            <h1 className="my-4 font-weight-light">PROMOTIONAL</h1>
           </div>
 
           {/* PROMOTIONAL LAYOUT */}
           <div className="graphics-container d-flex justify-content-center align-items-center row">
             {/* FIESTA AT THE FARM PROMOTION */}
-            <div className="col-5 mb-5">
+            <div className="col-10 p-3 mb-3 col-sm">
               <img
                 className="p-3 w-100 h-auto"
                 src={fatfImg}
@@ -377,7 +377,7 @@ function Design() {
             </div>
 
             {/* FIESTAVAL PROMOTION */}
-            <div className="col-5 mb-5">
+            <div className="col-10 p-3 mb-3 col-sm">
               <img
                 className="p-3 w-100 h-auto"
                 src={fiestavalImg}
@@ -385,8 +385,10 @@ function Design() {
               />
             </div>
 
+            <div className="w-100"></div>
+
             {/* MEN IN BLUE PROMOTION */}
-            <div className="col-5 mb-5">
+            <div className="col-10 p-3 mb-3 col-sm">
               <img
                 className="p-3 w-100 h-auto"
                 src={meninblueImg}
@@ -395,7 +397,7 @@ function Design() {
             </div>
 
             {/* MEN IN BLUE ALTERNATE PROMOTION */}
-            <div className="col-5 mb-5">
+            <div className="col-10 p-3 mb-3 col-sm">
               <img
                 className="p-3 w-100 h-auto"
                 src={meninblue2Img}
@@ -406,7 +408,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* AMERICAN IDOL PROMOTION */}
-            <div className="col-5 mb-5">
+            <div className="col-10 p-3 mb-3 col-sm">
               <img
                 className="p-3 w-100 h-auto"
                 src={americanIdolImg}
@@ -415,7 +417,7 @@ function Design() {
             </div>
 
             {/* BETTER THAN ONE PROMOTION */}
-            <div className="col-5 mb-5">
+            <div className="col-10 p-3 mb-3 col-sm">
               <img
                 className="p-3 w-100 h-auto"
                 src={betterThanImg}
@@ -426,7 +428,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* STRONG TOWER PROMOTION */}
-            <div className="col-5 mb-5">
+            <div className="col-10 p-3 mb-3 col-sm">
               <img
                 className="p-3 w-100 h-auto"
                 src={strongTowerImg}
@@ -435,7 +437,7 @@ function Design() {
             </div>
 
             {/* TAPESTRY PROMOTION */}
-            <div className="col-5 mb-5">
+            <div className="col-10 p-3 mb-3 col-sm">
               <img
                 className="p-3 w-100 h-auto"
                 src={tapestryImg}
@@ -446,7 +448,7 @@ function Design() {
             <div className="w-100"></div>
 
             {/* IMPACT PROMOTION */}
-            <div className="col-10 mb-5">
+            <div className="col-10 mb-3">
               <img
                 className="p-3 w-100 h-auto"
                 src={impactImg}
@@ -463,6 +465,8 @@ function Design() {
               />
             </div>
 
+            <div className="w-100"></div>
+
             {/* TATTOO DESIGN */}
             <div className="design d-flex justify-content-center">
               <h1 className="my-4 font-weight-light">TATTOO DESIGN</h1>
@@ -472,7 +476,7 @@ function Design() {
             <div className="graphics-container d-flex justify-content-center align-items-center row">
               
               {/* SHELBY'S ARROWS */}
-              <div className="col-5">
+              <div className="col-10 col-sm">
                 <img
                   className="w-100 h-auto"
                   src={shelbyArrowsImg}
@@ -481,7 +485,7 @@ function Design() {
               </div>
 
               {/* JESSI'S ARROWS */}
-              <div className="col-5">
+              <div className="col-10 col-sm">
                 <img
                   className="w-100 h-auto"
                   src={jessiArrowsImg}
@@ -492,7 +496,7 @@ function Design() {
               <div className="w-100"></div>
 
               {/* GRACE AND PEACE */}
-              <div className="col-6">
+              <div className="col-10 col-sm">
                 <img
                   className="w-100 h-auto"
                   src={graceandpeaceImg}
