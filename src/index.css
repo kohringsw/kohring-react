@@ -76,8 +76,13 @@ header nav ul li a:hover {
   border-bottom: 1px solid var(--first-color);
 }
 
-.projects h1, .contact-h1 {
+.design h1, .webdev h1, .contact h1 {
   color: var(--first-color);
+}
+
+.resume p a, .design p a, .webdev p a {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .container h5:hover {

@@ -85,7 +85,7 @@ function ContactForm() {
     <section>
       <div className="mb-5">
         <section className="col-12">
-          <div className="projects d-flex justify-content-center">
+          <div className="contact d-flex justify-content-center">
             <h1 className="m-5 font-weight-light">CONTACT SHELBY</h1>
           </div>
 

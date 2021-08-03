@@ -42,13 +42,13 @@ import graceandpeaceImg from "../../assets/images/graphic-design/tattoo/grace-an
 function Design() {
   return (
     <main>
-      <div className="project mb-5">
-        <section className="projects col-12">
-          <div className="section-title d-flex justify-content-center">
+      <div className="mb-5">
+        <section className="col-12">
+          <div className="design d-flex justify-content-center">
             <h1 className="m-5 font-weight-light">GRAPHIC DESIGN</h1>
           </div>
 
-          <div className="mx-5">
+          <div className="design mx-5">
             <p>
               Creating graphics has been a passion of Shelby's since he was in
               high school. Below you can see a handful of the more recent
@@ -83,7 +83,7 @@ function Design() {
           </div>
 
           {/* LOGOS */}
-          <div className="section-title d-flex justify-content-center">
+          <div className="design d-flex justify-content-center">
             <h1 className="my-4 font-weight-light">LOGOS</h1>
           </div>
 
@@ -189,7 +189,7 @@ function Design() {
           </div>
 
           {/* T-SHIRTS */}
-          <div className="section-title d-flex justify-content-center">
+          <div className="design d-flex justify-content-center">
             <h1 className="my-4 font-weight-light">T-SHIRTS</h1>
           </div>
 
@@ -317,7 +317,7 @@ function Design() {
           </div>
 
           {/* JOVENES JOURNAL */}
-          <div className="section-title d-flex justify-content-center">
+          <div className="design d-flex justify-content-center">
             <h1 className="my-5 font-weight-light">THE JOVENES JOURNAL</h1>
           </div>
 
@@ -361,7 +361,7 @@ function Design() {
           </div>
 
           {/* PROMOTIONAL */}
-          <div className="section-title d-flex justify-content-center">
+          <div className="design d-flex justify-content-center">
             <h1 className="my-5 font-weight-light">PROMOTIONAL</h1>
           </div>
 
@@ -464,7 +464,7 @@ function Design() {
             </div>
 
             {/* TATTOO DESIGN */}
-            <div className="section-title d-flex justify-content-center">
+            <div className="design d-flex justify-content-center">
               <h1 className="my-4 font-weight-light">TATTOO DESIGN</h1>
             </div>
 
