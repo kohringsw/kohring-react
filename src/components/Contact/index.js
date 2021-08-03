@@ -46,14 +46,14 @@ function ContactForm() {
   };
 
   const toastifySuccess = () => {
-    toast("Form sent!", {
+    toast("Form sent, thank you!", {
       position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: false,
-      className: "submit-feedback success",
+      className: "submit-feedback",
       toastId: "notifyToast",
     });
   };
