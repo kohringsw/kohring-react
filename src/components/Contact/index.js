@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-
+import { useForm } from "react-hook-form";
+import emailjs from "emailjs-com";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
 import { validateEmail } from "../../utils/helpers";
 
 function ContactForm() {
@@ -12,13 +15,14 @@ function ContactForm() {
 
   const [errorMessage, setErrorMessage] = useState("");
   const { name, email, subject, message } = formState;
+  const { handleSubmit, reset } = useForm();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      console.log("Submit Form", formState);
-    }
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (!errorMessage) {
+  //     console.log("Submit Form", formState);
+  //   }
+  // };
 
   const handleChange = (e) => {
     if (e.target.name === "email") {
@@ -41,6 +45,42 @@ function ContactForm() {
     }
   };
 
+  const toastifySuccess = () => {
+    toast("Form sent!", {
+      position: "bottom-right",
+      autoClose: 5000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: false,
+      className: "submit-feedback success",
+      toastId: "notifyToast",
+    });
+  };
+
+  const onSubmit = async (data) => {
+    // Send form email
+    try {
+      const templateParams = {
+        name: name,
+        email: email,
+        subject: subject,
+        message: message,
+      };
+
+      await emailjs.send(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        templateParams,
+        process.env.REACT_APP_USER_ID
+      );
+
+      toastifySuccess();
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   return (
     <section>
       <div className="mb-5">
@@ -59,36 +99,40 @@ function ContactForm() {
             </p>
           </div>
         </section>
-        <form className="form-group m-5" id="contact-form" onSubmit={handleSubmit}>
+        <form
+          className="form-group m-5"
+          id="contact-form"
+          onSubmit={handleSubmit(reset)}
+        >
           <div className="form-group col">
             <label htmlFor="name">Name:</label>
             <input
               type="text"
-              className="form-control"
               name="name"
+              className="form-control"
               defaultValue={name}
               onBlur={handleChange}
-            />
+            ></input>
           </div>
           <div className="form-group col">
             <label htmlFor="email">Email address:</label>
             <input
               type="email"
-              className="form-control"
               name="email"
+              className="form-control"
               defaultValue={email}
               onBlur={handleChange}
-            />
+            ></input>
           </div>
           <div className="form-group col">
             <label htmlFor="email">Subject:</label>
             <input
               type="text"
-              className="form-control"
               name="subject"
+              className="form-control"
               defaultValue={subject}
               onBlur={handleChange}
-            />
+            ></input>
           </div>
           <div className="form-group col">
             <label htmlFor="message">Message:</label>
@@ -98,7 +142,7 @@ function ContactForm() {
               rows="7"
               defaultValue={message}
               onBlur={handleChange}
-            />
+            ></textarea>
           </div>
           {errorMessage && (
             <div>
@@ -109,11 +153,13 @@ function ContactForm() {
             data-testid="button"
             type="submit"
             className="button btn btn-block btn-secondary mt-4 ml-3 text-white"
+            onClick={onSubmit}
           >
-            Send
+            Submit
           </button>
         </form>
       </div>
+      <ToastContainer />
     </section>
   );
 }
