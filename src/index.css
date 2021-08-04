@@ -90,35 +90,32 @@ header nav ul li a:hover {
   color: var(--second-color);
 }
 
-.about-img {
+.about-img, .img {
   width: 100%;
   padding: 0;
   margin: 0;
   display: flex;
 }
 
-.img {
+/* .img {
   border: 5px solid var(--first-color);
   height: auto;
-  max-width: 1000px;
-}
+  width: 100%;
+} */
 
 .img:hover {
   opacity: .7;
 }
 
 .webdev-button {
+  padding: 5px 8px;
   font-weight: normal;
-  font-size: 15px;
+  font-size: auto;
   background-color: var(--first-color);
 }
 
 .contact-button {
   max-width: 100px;
-}
-
-.button-container {
-  max-width: 1000px;
 }
 
 .button:hover {

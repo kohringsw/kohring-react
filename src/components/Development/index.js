@@ -8,8 +8,8 @@ import weatherDashboardImg from "../../assets/images/weather-dashboard.png";
 function Development() {
   return (
     <main>
-      <div className="project">
-        <section className="projects col-12">
+      <div>
+        <section>
           <div className="webdev d-flex justify-content-center">
             <h1 className="m-5 font-weight-light text-center">WEB DEVELOPMENT</h1>
           </div>
@@ -31,20 +31,20 @@ function Development() {
             </p>
           </div>
 
-          <div className="d-flex justify-content-center mb-5">
-            <div className="mx-5 mt-2">
+          <div className="mb-5">
+            <div className="mt-2">
               <a
                 href="https://shelbykohring.github.io/hike-now/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img
-                  className="img p-2 d-block w-100 h-auto"
+                  className="img w-100 h-auto"
                   src={hikeNowImg}
                   alt="Hike Now landing page"
                 />
               </a>
-              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
+              <div className="w-100 d-flex justify-content-around">
                 <a
                   className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://shelbykohring.github.io/hike-now/"
@@ -65,20 +65,20 @@ function Development() {
             </div>
           </div>
 
-          <div className="d-flex justify-content-center mb-5">
-            <div className="mx-5 mt-2">
+          <div className="mb-5">
+            <div className="mt-2">
               <a
                 href="https://lit-escarpment-33126.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img
-                  className="img p-2 d-block w-100 h-auto"
+                  className="img w-100 h-auto"
                   src={moosicImg}
                   alt="Hike Now landing page"
                 />
               </a>
-              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
+              <div className="w-100 d-flex justify-content-around">
                 <a
                   className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://lit-escarpment-33126.herokuapp.com/"
@@ -99,20 +99,20 @@ function Development() {
             </div>
           </div>
 
-          <div className="d-flex justify-content-center mb-5">
-            <div className="mx-5 mt-2">
+          <div className="mb-5">
+            <div className="mt-2">
               <a
                 href="https://shelbykohring.github.io/simply-plan-it/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img
-                  className="img p-2 w-100 d-block h-auto"
+                  className="img w-100 h-auto"
                   src={planItImg}
                   alt="Simply Plan It landing page"
                 />
               </a>
-              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
+              <div className="w-100 d-flex justify-content-around">
                 <a
                   className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://shelbykohring.github.io/simply-plan-it/"
@@ -133,20 +133,20 @@ function Development() {
             </div>
           </div>
 
-          <div className="d-flex justify-content-center mb-5">
-            <div className="mx-5 mt-2">
+          <div className="mb-5">
+            <div className="mt-2">
               <a
                 href="https://shelbykohring.github.io/weather-dashboard/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img
-                  className="img p-2 w-100 d-block h-auto"
+                  className="img w-100 h-auto"
                   src={weatherDashboardImg}
                   alt="Weather Dashboard landing page"
                 />
               </a>
-              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
+              <div className="w-100 d-flex justify-content-around">
                 <a
                   className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://shelbykohring.github.io/weather-dashboard/"
@@ -167,20 +167,20 @@ function Development() {
             </div>
           </div>
 
-          <div className="d-flex justify-content-center mb-5">
-            <div className="mx-5 mt-2">
+          <div className="mb-5">
+            <div className="mt-2">
               <a
                 href="https://the-bookfast-club.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img
-                  className="img p-2 w-100 d-block h-auto"
+                  className="img w-100 h-auto"
                   src={bookfastClubImg}
                   alt="Bookfast Club landing page"
                 />
               </a>
-              <div className="button-container w-100 row justify-content-around ml-1 mr-1">
+              <div className="w-100 d-flex justify-content-around">
                 <a
                   className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://the-bookfast-club.herokuapp.com/"
