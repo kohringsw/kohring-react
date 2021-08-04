@@ -12,16 +12,25 @@ function Nav(props) {
             onClick={() => setSectionSelected("About")}
             className={`${sectionSelected === "About" && "nav-active"}`}
           >
-            ABOUT ME
+            ABOUT
           </a>
         </li>
         <li>
           <a
-            href="#Project"
-            onClick={() => setSectionSelected("Project")}
-            className={`${sectionSelected === "Project" && "nav-active"}`}
+            href="#Design"
+            onClick={() => setSectionSelected("Design")}
+            className={`${sectionSelected === "Design" && "nav-active"}`}
           >
-            PROJECTS
+            DESIGN
+          </a>
+        </li>
+        <li>
+          <a
+            href="#Development"
+            onClick={() => setSectionSelected("Development")}
+            className={`${sectionSelected === "Development" && "nav-active"}`}
+          >
+            DEVELOPMENT
           </a>
         </li>
         <li>

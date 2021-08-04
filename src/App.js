@@ -3,7 +3,8 @@ import About from "./components/About";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Projects from "./components/Projects";
+import Design from "./components/Design";
+import Development from "./components/Development";
 import Resume from "./components/Resume";
 import "./index.css";
 
@@ -18,7 +19,8 @@ function App() {
       />
       <div>
         {sectionSelected === "About" && <About key="about-key" />}
-        {sectionSelected === "Project" && <Projects key="projects-key" />}
+        {sectionSelected === "Design" && <Design key="design-key" />}
+        {sectionSelected === "Development" && <Development key="development-key" />}
         {sectionSelected === "Contact" && <ContactForm key="contact-key" />}
         {sectionSelected === "Resume" && <Resume key="resume-key" />}
       </div>

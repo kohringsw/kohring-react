@@ -29,34 +29,28 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-bottom: solid 10px var(--second-color);
+  border-bottom: solid 10px var(--first-color);
 }
 
-header h1 a:hover {
-  text-decoration: none;
-  color: var(--second-color);
-}
-
-header h1 {
-  font-weight: bold;
-  font-size: 32px;
-  margin: 15px 0 15px 40px;
+.logo{
+  width: 30%;
 }
 
 .header-box {
   content: "";
   height: 100%;
   width: 100%;
-  background-color: var(--first-color);
+  background-color: white;
 }
 
-header a {
-  text-decoration: none;
-  color: var(--fourth-color);
+.header-box div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 header nav {
-  margin: 20px 12px;
+  margin: 10px 12px;
 }
 
 header nav ul {
@@ -69,8 +63,8 @@ header nav ul {
 
 header nav ul li a {
   padding: 0 30px;
-  font-size: 22px;
-  color: white;
+  font-size: 20px;
+  color: var(--first-color);
   letter-spacing: 4px;
 }
 
@@ -88,17 +82,13 @@ header nav ul li a:hover {
   border-bottom: 1px solid var(--first-color);
 }
 
-.about h1 {
-  font-size: 24px;
-  text-align: right;
+.design h1, .webdev h1, .contact h1 {
+  color: var(--first-color);
 }
 
-.projects h1, .contact-h1 {
-  border-bottom: 1px solid var(--first-color);
-}
-
-.container {
-  padding: 0 0 0 25px;
+.resume p a, .design p a, .webdev p a {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .container h5:hover {
@@ -106,13 +96,16 @@ header nav ul li a:hover {
 }
 
 .about-img {
-  border: 5px solid var(--first-color);
-  width: 90%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 .img {
   border: 5px solid var(--first-color);
   height: auto;
+  max-width: 1000px;
 }
 
 .img:hover {
@@ -123,6 +116,11 @@ header nav ul li a:hover {
   font-weight: normal;
   font-size: 15px;
   background-color: var(--first-color);
+  max-width: 100px;
+}
+
+.button-container {
+  max-width: 1000px;
 }
 
 .button:hover {
@@ -146,110 +144,66 @@ header nav ul li a:hover {
 
 /* MEDIA QUERY FOR 980PX SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
+  
   header {
     padding-bottom: 30px;
   }
-
-  header nav {
-    margin-bottom: -10px;
+  
+  .logo {
+    width: 30%;
   }
 
   header nav ul li a {
-    margin: 0;
-    font-size: 20px;
+    font-size: 16px;
     padding: 0 20px;
   }
 
-  .button {
-    font-size: 18px;
-  }
 }
 
 /* MEDIA QUERY FOR 768PX SCREENS AND SMALLER */
 @media screen and (max-width: 768px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  header nav ul {
-    display: block;
-    flex-wrap: wrap;
+  
+  .logo {
+    width: 35%;
   }
   
   header nav ul li a {
-    padding: 0 30px;
-    font-size: 20px;
-    color: white;
-    letter-spacing: 4px;
+    padding: 0 15px;
+    font-size: 13px;
+    color: var(--first-color);
+    letter-spacing: 2px;
   }
 
-  .button {
-    font-weight: normal;
-    font-size: 17px;
-  }
 }
 
 /* MEDIA QUERY FOR 575PX SCREENS AND SMALLER */
 @media screen and (max-width: 575px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  
+  .logo {
+    width: 50%;
   }
 
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  header {
-    padding-bottom: 30px;
-    justify-content: flex-start;
-    position: relative;
-  }
-
-  header h1 {
-    font-weight: bold;
-    font-size: 32px;
-    margin: 15px 0 15px 35px;
-  }
-
-  header nav {
-    margin-bottom: -30px;
+  .header-box div {
+    display: flex;
+    justify-content: center;
   }
 
   header nav ul {
-    display: block;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   header nav ul li a {
-    padding: 10 40 10 40px;
     font-size: 18px;
-    color: white;
-    letter-spacing: 4px;
+    color: var(--first-color);
+    letter-spacing: 2px;
   }
 
-  .button {
-    font-weight: lighter;
-    font-size: 12px;
+  .design h1, .webdev h1, .contact h1 {
+    font-size: 32px;
   }
+
+  .resume h1 {
+    font-size: 28px;
+  }
+
 }
