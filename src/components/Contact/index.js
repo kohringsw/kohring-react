@@ -152,7 +152,7 @@ function ContactForm() {
           <button
             data-testid="button"
             type="submit"
-            className="button btn btn-block btn-secondary mt-4 ml-3 text-white"
+            className="contact-button btn btn-block btn-secondary mt-4 ml-3 text-white"
             onClick={onSubmit}
           >
             Submit

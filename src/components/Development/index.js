@@ -46,7 +46,7 @@ function Development() {
               </a>
               <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://shelbykohring.github.io/hike-now/"
                   target="_blank "
                   rel="noreferrer"
@@ -54,7 +54,7 @@ function Development() {
                   App Website
                 </a>
                 <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://github.com/shelbykohring/hike-now"
                   target="_blank"
                   rel="noreferrer"
@@ -80,7 +80,7 @@ function Development() {
               </a>
               <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://lit-escarpment-33126.herokuapp.com/"
                   target="_blank "
                   rel="noreferrer"
@@ -88,7 +88,7 @@ function Development() {
                   App Website
                 </a>
                 <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://github.com/Ondayko14/Moosic"
                   target="_blank"
                   rel="noreferrer"
@@ -114,7 +114,7 @@ function Development() {
               </a>
               <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://shelbykohring.github.io/simply-plan-it/"
                   target="_blank "
                   rel="noreferrer"
@@ -122,7 +122,7 @@ function Development() {
                   App Website
                 </a>
                 <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://github.com/shelbykohring/simply-plan-it"
                   target="_blank"
                   rel="noreferrer"
@@ -148,7 +148,7 @@ function Development() {
               </a>
               <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://shelbykohring.github.io/weather-dashboard/"
                   target="_blank "
                   rel="noreferrer"
@@ -156,7 +156,7 @@ function Development() {
                   App Website
                 </a>
                 <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://github.com/shelbykohring/weather-dashboard"
                   target="_blank"
                   rel="noreferrer"
@@ -182,7 +182,7 @@ function Development() {
               </a>
               <div className="button-container w-100 row justify-content-around ml-1 mr-1">
                 <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://the-bookfast-club.herokuapp.com/"
                   target="_blank "
                   rel="noreferrer"
@@ -190,7 +190,7 @@ function Development() {
                   App Website
                 </a>
                 <a
-                  className="button text-decoration-none text-light p-3 badge mt-4 col-5"
+                  className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://github.com/BeatyPete/the-bookfast-club.git"
                   target="_blank"
                   rel="noreferrer"
