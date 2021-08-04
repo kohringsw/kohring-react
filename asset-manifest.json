@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kohringsw-react/static/css/main.904aa004.chunk.css",
-    "main.js": "/kohringsw-react/static/js/main.2d305304.chunk.js",
-    "main.js.map": "/kohringsw-react/static/js/main.2d305304.chunk.js.map",
+    "main.css": "/kohringsw-react/static/css/main.71a28514.chunk.css",
+    "main.js": "/kohringsw-react/static/js/main.2367f223.chunk.js",
+    "main.js.map": "/kohringsw-react/static/js/main.2367f223.chunk.js.map",
     "runtime-main.js": "/kohringsw-react/static/js/runtime-main.de691022.js",
     "runtime-main.js.map": "/kohringsw-react/static/js/runtime-main.de691022.js.map",
     "static/css/2.10431874.chunk.css": "/kohringsw-react/static/css/2.10431874.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.fe08a4ea.chunk.js.map": "/kohringsw-react/static/js/2.fe08a4ea.chunk.js.map",
     "index.html": "/kohringsw-react/index.html",
     "static/css/2.10431874.chunk.css.map": "/kohringsw-react/static/css/2.10431874.chunk.css.map",
-    "static/css/main.904aa004.chunk.css.map": "/kohringsw-react/static/css/main.904aa004.chunk.css.map",
+    "static/css/main.71a28514.chunk.css.map": "/kohringsw-react/static/css/main.71a28514.chunk.css.map",
     "static/js/2.fe08a4ea.chunk.js.LICENSE.txt": "/kohringsw-react/static/js/2.fe08a4ea.chunk.js.LICENSE.txt",
     "static/media/SK-Designs.1c8ff153.png": "/kohringsw-react/static/media/SK-Designs.1c8ff153.png",
     "static/media/american-idol.d224ef38.png": "/kohringsw-react/static/media/american-idol.d224ef38.png",
@@ -68,7 +68,7 @@
     "static/js/runtime-main.de691022.js",
     "static/css/2.10431874.chunk.css",
     "static/js/2.fe08a4ea.chunk.js",
-    "static/css/main.904aa004.chunk.css",
-    "static/js/main.2d305304.chunk.js"
+    "static/css/main.71a28514.chunk.css",
+    "static/js/main.2367f223.chunk.js"
   ]
 }
