@@ -111,7 +111,6 @@ header nav ul li a:hover {
   font-weight: normal;
   font-size: 15px;
   background-color: var(--first-color);
-  max-width: 100px;
 }
 
 .contact-button {
