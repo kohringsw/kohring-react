@@ -97,14 +97,12 @@ header nav ul li a:hover {
   display: flex;
 }
 
-/* .img {
-  border: 5px solid var(--first-color);
-  height: auto;
-  width: 100%;
-} */
-
 .img:hover {
   opacity: .7;
+}
+
+.img-border {
+  border-bottom: 5px solid var(--third-color);
 }
 
 .webdev-button {
@@ -112,6 +110,17 @@ header nav ul li a:hover {
   font-weight: normal;
   font-size: auto;
   background-color: var(--first-color);
+}
+
+.webdev-button:hover {
+  opacity: .5;
+}
+
+.webdev-border {
+  border-left: 1px solid var(--third-color);
+  border-right: 1px solid var(--third-color);
+  border-bottom: 1px solid var(--third-color);
+  border-radius: 0 0 10px 10px;
 }
 
 .contact-button {
