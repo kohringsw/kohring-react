@@ -52,13 +52,22 @@ function Development() {
                 <h3 className="my-4 font-weight-light">HIKE NOW</h3>
               </div>
 
-              <div className="mx-5">
+              <div className="webdev mx-5">
                 <p>
-                  What design needs do you have for your business or
-                  organization? Whether it's a new logo or rebranding an
-                  existing one, building a new website or updating what you have
-                  now—whatever it is you're looking for—reach out to Shelby for
-                  a free quote. Just use the contact form below.
+                Hike Now is a hiking app to search for the best trails in
+                  every state. As a part of this group project, Shelby was the
+                  project manager as well as being responsible for the bulk of
+                  user interface design and development, using TailwindCSS as
+                  the main tool powering the app. Hike Now is also supported by
+                  the{" "}
+                  <a
+                    href="https://www.hikingproject.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Hiking Project API
+                  </a>
+                  .
                 </p>
               </div>
 
