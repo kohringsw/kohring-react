@@ -1,12 +1,13 @@
-import React, { useState } from "react";
-import About from "./components/About";
-import ContactForm from "./components/Contact";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Design from "./components/Design";
-import Development from "./components/Development";
-import Resume from "./components/Resume";
+import React, { lazy, Suspense, useState } from "react";
 import "./index.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+const About = lazy(() => import("./components/About"));
+const ContactForm = lazy(() => import("./components/Contact"));
+const Design = lazy(() => import("./components/Design"));
+const Development = lazy(() => import("./components/Development"));
+const Resume = lazy(() => import("./components/Resume"));
 
 function App() {
   const [sectionSelected, setSectionSelected] = useState("About");
@@ -18,11 +19,31 @@ function App() {
         setSectionSelected={setSectionSelected}
       />
       <div>
-        {sectionSelected === "About" && <About key="about-key" />}
-        {sectionSelected === "Design" && <Design key="design-key" />}
-        {sectionSelected === "Development" && <Development key="development-key" />}
-        {sectionSelected === "Contact" && <ContactForm key="contact-key" />}
-        {sectionSelected === "Resume" && <Resume key="resume-key" />}
+        {sectionSelected === "About" && (
+          <Suspense fallback={<div className=" d-flex justify-content-center m-5">LOADING...</div>}>
+            <About key="about-key" />
+          </Suspense>
+        )}
+        {sectionSelected === "Design" && (
+          <Suspense fallback={<div className=" d-flex justify-content-center m-5">LOADING...</div>}>
+            <Design key="design-key" />
+          </Suspense>
+        )}
+        {sectionSelected === "Development" && (
+          <Suspense fallback={<div className=" d-flex justify-content-center m-5">LOADING...</div>}>
+            <Development key="development-key" />
+          </Suspense>
+        )}
+        {sectionSelected === "Contact" && (
+          <Suspense fallback={<div className=" d-flex justify-content-center m-5">LOADING...</div>}>
+            <ContactForm key="contact-key" />
+          </Suspense>
+        )}
+        {sectionSelected === "Resume" && (
+          <Suspense fallback={<div className=" d-flex justify-content-center m-5">LOADING...</div>}>
+            <Resume key="resume-key" />
+          </Suspense>
+        )}
       </div>
       <Footer />
     </div>
