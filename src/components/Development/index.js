@@ -11,7 +11,9 @@ function Development() {
       <div>
         <section>
           <div className="webdev d-flex justify-content-center">
-            <h1 className="m-5 font-weight-light text-center">WEB DEVELOPMENT</h1>
+            <h1 className="m-5 font-weight-light text-center">
+              WEB DEVELOPMENT
+            </h1>
           </div>
 
           <div className="webdev mb-5 mx-5">
@@ -31,6 +33,7 @@ function Development() {
             </p>
           </div>
 
+          {/* HIKE NOW */}
           <div className="mb-5">
             <div className="mt-2">
               <a
@@ -44,7 +47,22 @@ function Development() {
                   alt="Hike Now landing page"
                 />
               </a>
-              <div className="w-100 d-flex justify-content-around">
+
+              <div className="design d-flex justify-content-center">
+                <h3 className="my-4 font-weight-light">HIKE NOW</h3>
+              </div>
+
+              <div className="mx-5">
+                <p>
+                  What design needs do you have for your business or
+                  organization? Whether it's a new logo or rebranding an
+                  existing one, building a new website or updating what you have
+                  now—whatever it is you're looking for—reach out to Shelby for
+                  a free quote. Just use the contact form below.
+                </p>
+              </div>
+
+              <div className="w-100 d-flex justify-content-around pb-5 px-5">
                 <a
                   className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://shelbykohring.github.io/hike-now/"
@@ -78,7 +96,22 @@ function Development() {
                   alt="Hike Now landing page"
                 />
               </a>
-              <div className="w-100 d-flex justify-content-around">
+
+              <div className="design d-flex justify-content-center">
+                <h3 className="my-4 font-weight-light">MOOSIC</h3>
+              </div>
+
+              <div className="mx-5">
+                <p>
+                  What design needs do you have for your business or
+                  organization? Whether it's a new logo or rebranding an
+                  existing one, building a new website or updating what you have
+                  now—whatever it is you're looking for—reach out to Shelby for
+                  a free quote. Just use the contact form below.
+                </p>
+              </div>
+
+              <div className="w-100 d-flex justify-content-around pb-5 px-5">
                 <a
                   className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://lit-escarpment-33126.herokuapp.com/"
@@ -112,7 +145,22 @@ function Development() {
                   alt="Simply Plan It landing page"
                 />
               </a>
-              <div className="w-100 d-flex justify-content-around">
+
+              <div className="design d-flex justify-content-center">
+                <h3 className="my-4 font-weight-light">SIMPLY PLAN IT</h3>
+              </div>
+
+              <div className="mx-5">
+                <p>
+                  What design needs do you have for your business or
+                  organization? Whether it's a new logo or rebranding an
+                  existing one, building a new website or updating what you have
+                  now—whatever it is you're looking for—reach out to Shelby for
+                  a free quote. Just use the contact form below.
+                </p>
+              </div>
+
+              <div className="w-100 d-flex justify-content-around pb-5 px-5">
                 <a
                   className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://shelbykohring.github.io/simply-plan-it/"
@@ -146,7 +194,22 @@ function Development() {
                   alt="Weather Dashboard landing page"
                 />
               </a>
-              <div className="w-100 d-flex justify-content-around">
+
+              <div className="design d-flex justify-content-center">
+                <h3 className="my-4 font-weight-light">WEATHER DASHBOARD</h3>
+              </div>
+
+              <div className="mx-5">
+                <p>
+                  What design needs do you have for your business or
+                  organization? Whether it's a new logo or rebranding an
+                  existing one, building a new website or updating what you have
+                  now—whatever it is you're looking for—reach out to Shelby for
+                  a free quote. Just use the contact form below.
+                </p>
+              </div>
+
+              <div className="w-100 d-flex justify-content-around pb-5 px-5">
                 <a
                   className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://shelbykohring.github.io/weather-dashboard/"
@@ -180,7 +243,22 @@ function Development() {
                   alt="Bookfast Club landing page"
                 />
               </a>
-              <div className="w-100 d-flex justify-content-around">
+
+              <div className="design d-flex justify-content-center">
+                <h3 className="my-4 font-weight-light">THE BOOKFAST CLUB</h3>
+              </div>
+
+              <div className="mx-5">
+                <p>
+                  What design needs do you have for your business or
+                  organization? Whether it's a new logo or rebranding an
+                  existing one, building a new website or updating what you have
+                  now—whatever it is you're looking for—reach out to Shelby for
+                  a free quote. Just use the contact form below.
+                </p>
+              </div>
+
+              <div className="w-100 d-flex justify-content-around pb-5 px-5">
                 <a
                   className="webdev-button text-decoration-none text-light p-3 badge mt-4 col-5"
                   href="https://the-bookfast-club.herokuapp.com/"

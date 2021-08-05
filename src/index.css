@@ -165,6 +165,10 @@ header nav ul li a:hover {
 
 /* MEDIA QUERY FOR 575PX SCREENS AND SMALLER */
 @media screen and (max-width: 575px) {
+
+  body {
+    overflow-x: hidden;
+  }
   
   .logo {
     width: 50%;
