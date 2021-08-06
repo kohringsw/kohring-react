@@ -121,7 +121,7 @@ header nav ul li a:hover {
   border-right: 1px solid var(--third-color);
   border-bottom: 1px solid var(--third-color);
   border-radius: 0 0 10px 10px;
-  margin: 0 8% 0 8%;
+  margin: 0 8% 8% 8%;
 }
 
 .contact-button {
