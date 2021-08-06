@@ -55,9 +55,9 @@ function Development() {
 
                 <div className="webdev mx-4">
                   <p className="text-center">
-                    Hike Now is a hiking app to search for the best trails in
-                    every state. As a part of this group project, Shelby was the
-                    project manager as well as being responsible for the bulk of
+                    Hike Now is a hiking app used to search for the best trails
+                    in every state. As a part of this group project, Shelby was
+                    the project manager. He was also responsible for the bulk of
                     user interface design and development, using TailwindCSS as
                     the main tool powering the app. Hike Now is also supported
                     by the{" "}
@@ -116,7 +116,7 @@ function Development() {
                 <div className="webdev mx-4">
                   <p className="text-center">
                     Moosic is a social app for sharing all of the best music
-                    that you are currently listening to. Produced as a group
+                    that is currently on your playlist. Produced as a group
                     project, Moosic had a lot of moving parts. Shelby was mostly
                     responsible for the user interface design and development,
                     depending largely on Bootstrap, but also creating some of
@@ -182,11 +182,11 @@ function Development() {
                 <div className="mx-4">
                   <p className="text-center">
                     Simply Plan It is an app to help simplify your daily to-do
-                    list. As the sole author of this project, Shelby built it
-                    with the most basic front end tools, powering the hour by
-                    hour updates with Moment.js and jQuery. The user interface
-                    was designed using Bootstrap with a goal of being easy to
-                    use and modify on the go.
+                    list. As the sole author of this project, Shelby produced
+                    this project with dynamic front end tools, powering the hour
+                    by hour updates with Moment.js and jQuery. The user
+                    interface was designed using Bootstrap with the goal of
+                    being easy to use and easy to modify on the go.
                   </p>
                 </div>
 
@@ -301,10 +301,11 @@ function Development() {
                     The Bookfast Club is a social app allowing users to share
                     their favorite books, create reading lists, and search for
                     all the books their friends like most. As a part of this
-                    group project, Shelby created the concept behind the app and the ideation of
-                    the original design. The Bookfast Club runs on MySql2,
-                    Express and Sequelize on the backend while depending on
-                    TailwindCSS, Handlebars and jQuery on the frontend. The {" "}
+                    group project, Shelby created the concept behind the app and
+                    the ideation of the original design. The Bookfast Club runs
+                    on MySql2, Express and Sequelize on the backend while
+                    depending on TailwindCSS, Handlebars and jQuery on the
+                    frontend. Finally, the{" "}
                     <a
                       href="https://developers.google.com/books"
                       target="_blank"
@@ -312,8 +313,7 @@ function Development() {
                     >
                       Google Books API
                     </a>{" "}
-                    helps to create a seemingly endless number of books to your
-                    reading list.
+                    grants users of this app access to a seemingly endless library from which to choose your next book.
                   </p>
                 </div>
 
