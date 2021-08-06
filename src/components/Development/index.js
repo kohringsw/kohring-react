@@ -48,9 +48,9 @@ function Development() {
                 />
               </a>
 
-              <div className="webdev-border mx-4">
+              <div className="webdev-border">
                 <div className="webdev d-flex justify-content-center">
-                  <h3 className="mt-4 mb-3 font-weight-light">HIKE NOW</h3>
+                  <h1 className="mt-4 mb-3 font-weight-light">HIKE NOW</h1>
                 </div>
 
                 <div className="webdev mx-4">
@@ -108,9 +108,9 @@ function Development() {
                   alt="Moosic landing page"
                 />
               </a>
-              <div className="webdev-border mx-4">
+              <div className="webdev-border">
                 <div className="webdev d-flex justify-content-center">
-                  <h3 className="mt-4 mb-3 font-weight-light">MOOSIC</h3>
+                  <h1 className="mt-4 mb-3 font-weight-light">MOOSIC</h1>
                 </div>
 
                 <div className="webdev mx-4">
@@ -172,20 +172,21 @@ function Development() {
                 />
               </a>
 
-              <div className="webdev-border mx-4">
+              <div className="webdev-border">
                 <div className="webdev d-flex justify-content-center">
-                  <h3 className="mt-4 mb-3 font-weight-light">
+                  <h1 className="mt-4 mb-3 font-weight-light">
                     SIMPLY PLAN IT
-                  </h3>
+                  </h1>
                 </div>
 
                 <div className="mx-4">
                   <p className="text-center">
-                    What design needs do you have for your business or
-                    organization? Whether it's a new logo or rebranding an
-                    existing one, building a new website or updating what you
-                    have now—whatever it is you're looking for—reach out to
-                    Shelby for a free quote. Just use the contact form below.
+                    Simply Plan It is an app to help simplify your daily to-do
+                    list. As the sole author of this project, Shelby built it
+                    with the most basic front end tools, powering the hour by
+                    hour updates with Moment.js and jQuery. The user interface
+                    was designed using Bootstrap with a goal of being easy to
+                    use and modify on the go.
                   </p>
                 </div>
 
@@ -226,20 +227,28 @@ function Development() {
                 />
               </a>
 
-              <div className="webdev-border mx-4">
+              <div className="webdev-border">
                 <div className="webdev d-flex justify-content-center">
-                  <h3 className="mt-4 mb-3 font-weight-light">
+                  <h1 className="mt-4 mb-3 font-weight-light">
                     WEATHER DASHBOARD
-                  </h3>
+                  </h1>
                 </div>
 
-                <div className="mx-4">
+                <div className="webdev mx-4">
                   <p className="text-center">
-                    What design needs do you have for your business or
-                    organization? Whether it's a new logo or rebranding an
-                    existing one, building a new website or updating what you
-                    have now—whatever it is you're looking for—reach out to
-                    Shelby for a free quote. Just use the contact form below.
+                    Weather Dashboard is an app to search for and save the
+                    weather reports you need in cities all over the world. Using
+                    the{" "}
+                    <a
+                      href="https://openweathermap.org/api"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Open Weather API
+                    </a>
+                    , Shelby built this app using jQuery, Moment.js and
+                    Bootsrap. Search for your city and get the current weather,
+                    as well as a five day outlook.
                   </p>
                 </div>
 
@@ -266,7 +275,7 @@ function Development() {
           </div>
 
           {/* THE BOOKFAST CLUB */}
-          <div className="mb-5">
+          <div className="mb-5 pb-4">
             <div className="mt-2">
               <a
                 href="https://the-bookfast-club.herokuapp.com/"
@@ -280,20 +289,31 @@ function Development() {
                 />
               </a>
 
-              <div className="webdev-border mx-4">
+              <div className="webdev-border">
                 <div className="webdev d-flex justify-content-center">
-                  <h3 className="mt-4 mb-3 font-weight-light">
+                  <h1 className="mt-4 mb-3 font-weight-light">
                     THE BOOKFAST CLUB
-                  </h3>
+                  </h1>
                 </div>
 
-                <div className="mx-4">
+                <div className="webdev mx-4">
                   <p className="text-center">
-                    What design needs do you have for your business or
-                    organization? Whether it's a new logo or rebranding an
-                    existing one, building a new website or updating what you
-                    have now—whatever it is you're looking for—reach out to
-                    Shelby for a free quote. Just use the contact form below.
+                    The Bookfast Club is a social app allowing users to share
+                    their favorite books, create reading lists, and search for
+                    all the books their friends like most. As a part of this
+                    group project, Shelby created the concept behind the app and the ideation of
+                    the original design. The Bookfast Club runs on MySql2,
+                    Express and Sequelize on the backend while depending on
+                    TailwindCSS, Handlebars and jQuery on the frontend. The {" "}
+                    <a
+                      href="https://developers.google.com/books"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Google Books API
+                    </a>{" "}
+                    helps to create a seemingly endless number of books to your
+                    reading list.
                   </p>
                 </div>
 
