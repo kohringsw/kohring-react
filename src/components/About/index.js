@@ -11,7 +11,7 @@ function About() {
       />
       <div className="m-5">
         <p>
-          SK Designs is a free lance graphic design and web development company
+          SK Designs is a free lance graphic design and web development firm
           operated by Shelby Kohring.
         </p>
         <p>
