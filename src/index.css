@@ -103,6 +103,7 @@ header nav ul li a:hover {
 
 .img-border {
   border-bottom: 5px solid var(--third-color);
+  border-top: 5px solid var(--third-color);
 }
 
 .webdev-button {

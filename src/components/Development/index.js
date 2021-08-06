@@ -275,7 +275,7 @@ function Development() {
           </div>
 
           {/* THE BOOKFAST CLUB */}
-          <div className="mb-5 pb-4">
+          <div className="mb-5">
             <div className="mt-2">
               <a
                 href="https://the-bookfast-club.herokuapp.com/"
