@@ -28,5 +28,5 @@ Shelby Kohring
 
 ## Questions
 If you have questions about this application: 
-- Find me on [GitHub: kohringsw](https://github.com/shelbykohring) or 
+- Find me on [GitHub: shelbykohring](https://github.com/shelbykohring) or 
 - Email me at [kohringsw@gmail.com](mailto:kohringsw@gmail.com)
