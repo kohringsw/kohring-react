@@ -12,7 +12,7 @@ import twowolvesImg from "../../assets/images/graphic-design/logos/two-wolves.pn
 import denisImg from "../../assets/images/graphic-design/shirts/denis.png";
 import entrenchedImg from "../../assets/images/graphic-design/shirts/entrenched.png";
 import greatestShowImg from "../../assets/images/graphic-design/shirts/greatest-show.png";
-import hcaImg from "../../assets/images/graphic-design/shirts/hca-2020.png";
+import hcaImg from "../../assets/images/graphic-design/shirts/HCA-2020.png";
 import impact2019Img from "../../assets/images/graphic-design/shirts/impact2019.png";
 import impact2020Img from "../../assets/images/graphic-design/shirts/impact2020.png";
 import impact2021FrontImg from "../../assets/images/graphic-design/shirts/impact2021-front.png";
@@ -21,14 +21,14 @@ import twowolves2018Img from "../../assets/images/graphic-design/shirts/twowolve
 import twowolves2019Img from "../../assets/images/graphic-design/shirts/twowolves2019.png";
 import wayfindersFrontImg from "../../assets/images/graphic-design/shirts/wayfinders-front.png";
 import wayfindersBackImg from "../../assets/images/graphic-design/shirts/wayfinders-back.png";
-import fatfImg from "../../assets/images/graphic-design/invites/fatf-invite.png";
-import fiestavalImg from "../../assets/images/graphic-design/invites/fiestaval.png";
+import fatfImg from "../../assets/images/graphic-design/invites/FATF-Invite.png";
+import fiestavalImg from "../../assets/images/graphic-design/invites/Fiestaval.png";
 import meninblueImg from "../../assets/images/graphic-design/posters/men-in-blue.png";
 import meninblue2Img from "../../assets/images/graphic-design/posters/men-in-blue-2.png";
 import americanIdolImg from "../../assets/images/graphic-design/posters/american-idol.png";
-import betterThanImg from "../../assets/images/graphic-design/posters/better-than-one.png";
+import betterThanImg from "../../assets/images/graphic-design/posters/Better-Than-One.png";
 import strongTowerImg from "../../assets/images/graphic-design/posters/strong-tower.png";
-import tapestryImg from "../../assets/images/graphic-design/posters/tapestry.png";
+import tapestryImg from "../../assets/images/graphic-design/posters/Tapestry.png";
 import impactImg from "../../assets/images/graphic-design/banners/impact-promotion.png";
 import revolutionImg from "../../assets/images/graphic-design/banners/revolution-promotion.png";
 import jj04Img from "../../assets/images/graphic-design/banners/jovenes-journal-04.png";
