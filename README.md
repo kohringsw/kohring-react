@@ -16,11 +16,11 @@ SK Designs is the professional portfolio for Shelby Kohring and is a free lance 
 
 ## Usage
 You can use this professional portfolio for Shelby Kohring to do the following:
-- [Learn about who Shelby is](https://www.shelbykohring.com/#About)
-- [See some of Shelby's graphic design work](https://www.shelbykohring.com/#Design)
-- [See some of Shelby's web development projects](https://www.shelbykohring.com/#Development)
-- [Contact Shelby](https://www.shelbykohring.com/#Contact)
-- [See Shelby's resume](https://www.shelbykohring.com/#Resume)
+- Learn about who Shelby is
+- See some of Shelby's graphic design work
+- See some of Shelby's web development projects
+- Contact Shelby
+- See Shelby's resume
 - You can also connect to all of Shelby's social media profiles in the footer of his site including [GitHub](https://www.github.com/shelbykohring), [Linked In](https://www.linkedin.com/in/shelbykohring/), [Instagram](https://www.instagram.com/shelbykohring), and [Twitter](https://twitter.com/shelbykohring/).
 
 ## Contributors
