@@ -13,7 +13,7 @@ const ContactForm = () => {
 
   // Function that displays a success toast on bottom right of the page when form submission is successful
   const toastifySuccess = () => {
-    toast("Your form has been sent, thank you!", {
+    toast("Form sent, thank you!", {
       position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: true,
@@ -75,7 +75,7 @@ const ContactForm = () => {
                 onSubmit={handleSubmit(onSubmit)}
                 noValidate
               >
-                {/* Row 1 of form */}
+                {/* Row 1 and 2 of form */}
                 <div>
                   <div className="col my-4">
                     <input
@@ -118,7 +118,7 @@ const ContactForm = () => {
                     )}
                   </div>
                 </div>
-                {/* Row 2 of form */}
+                {/* Row 3 of form */}
                 <div>
                   <div className="col mb-4">
                     <input
@@ -144,7 +144,7 @@ const ContactForm = () => {
                     )}
                   </div>
                 </div>
-                {/* Row 3 of form */}
+                {/* Row 4 of form */}
                 <div>
                   <div className="col mb-4">
                     <textarea
