@@ -20,7 +20,7 @@ const ContactForm = () => {
       closeOnClick: true,
       pauseOnHover: true,
       draggable: false,
-      className: "submit-feedback success",
+      className: "submit-feedback success red-background",
       toastId: "notifyToast",
     });
   };
