@@ -16,8 +16,8 @@ function Development() {
             </h1>
           </div>
 
-          <div className="webdev mb-5 mx-5">
-            <p>
+          <div className="webdev col">
+            <p className="mb-5 mx-5">
               Below are a few of the development projects Shelby produced
               through the Coding Bootcamp with Vanderbilt. To learn more about
               these apps use the buttons under the images to navigate to the app
