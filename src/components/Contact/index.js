@@ -13,14 +13,14 @@ const ContactForm = () => {
 
   // Function that displays a success toast on bottom right of the page when form submission is successful
   const toastifySuccess = () => {
-    toast("Your form has been sent, thank you!", {
+    toast("Form sent, thank you!", {
       position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: false,
-      className: "submit-feedback success",
+      className: "submit-feedback success red-background",
       toastId: "notifyToast",
     });
   };
